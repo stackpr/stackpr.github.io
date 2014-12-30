@@ -16,7 +16,7 @@
   background-image: linear-gradient(to bottom,#999 0,#666 100%);
 }
 .navbar-default .navbar-brand {
-  background: #000 url(/assets/witti/wit09_150x54.png) center no-repeat;
+  background: transparent url(/assets/witti/wit09_150x54.png) center no-repeat;
   height: 54px;
   width: 162px;
   text-indent: -1000px;
@@ -27,10 +27,10 @@
 
 /* Jekyll Bootstrap Colors */
 h1, h2, h3, h4 {
-  color: #f22430;
+  color: #666;
 }
 #footer {
-  background-color: #fdcd60;
+  background-color: #666;
 }
 
 
