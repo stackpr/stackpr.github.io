@@ -1,6 +1,7 @@
 ---
 title: "Rename S3 Bucket"
 layout: "blog"
+category: "blog"
 ---
 {% include JB/setup %}
 <div id="node-339" class="node node-blog node-promoted">
