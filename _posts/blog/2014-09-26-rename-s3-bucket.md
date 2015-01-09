@@ -1,6 +1,6 @@
 ---
 title: "Rename S3 Bucket"
-layout: "blog"
+layout: "post"
 category: "blog"
 tags: ["Amazon S3"]
 ---
