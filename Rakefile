@@ -51,12 +51,11 @@ task :post do
   slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
   begin
     date = (ENV['date'] ? Time.parse(ENV['date']) : Time.now).strftime('%Y-%m-%d')
-	filename = File.join(CONFIG['posts'], "#{date}-#{slug}.#{CONFIG['post_ext']}")
   rescue => e
-	filename = File.join(CONFIG['posts'], "#{slug}.#{CONFIG['post_ext']}")
-#    puts "Error - date format must be YYYY-MM-DD, please check you typed it correctly!"
-#    exit -1
+    puts "Error - date format must be YYYY-MM-DD, please check you typed it correctly!"
+    exit -1
   end
+  filename = File.join(CONFIG['posts'], "#{date}-#{slug}.#{CONFIG['post_ext']}")
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
