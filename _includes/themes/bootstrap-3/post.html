@@ -7,6 +7,13 @@
     <div class="date">
       <span>{{ page.date | date_to_long_string }}</span>
     </div>
+    {% unless page.images == empty %}
+    	{% for img in page.images %}
+    		<div>
+    			<img src="/assets/derivatives/220x220/{{ img }}" />
+    		</div>
+    	{% endfor %}
+    {% endunless %}
     <div class="content">
       {{ content }}
     </div>
