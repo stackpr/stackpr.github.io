@@ -3,7 +3,7 @@ title: "The Mental Health Clinician"
 layout: "post"
 category: "portfolio"
 tags: ["Drupal","Logo"]
-permalink: "\/portfolio\/mental-health-clinician\/"
+permalink: "\/portfolio\/mental-health-clinician\/index.html"
 ---
 {% include JB/setup %}
 <div id="node-115" class="node node-portfolio node-promoted">
