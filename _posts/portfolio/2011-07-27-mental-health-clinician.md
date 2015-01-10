@@ -1,11 +1,11 @@
 ---
-title: "The Mental Health Clinician..."
-layout: "post"
-category: "portfolio"
+title: The Mental Health Clinician
+layout: post
+category: portfolio
 tech: ["Drupal","Logo"]
 team: ["MHC Editorial Board"]
 position: ["Developer","Designer","Staff Liaison"]
-permalink: "\/portfolio\/mental-health-clinician"
+permalink: /portfolio/mental-health-clinician
 images: ["mhc-227x113.png","the_mental_health_clinician_july_2011_-_cpnp.org_1311816327742-2.png","the_mental_health_clinician_july_2011_-_cpnp.org_1311816327742.png"]
 ---
 {% include JB/setup %}
