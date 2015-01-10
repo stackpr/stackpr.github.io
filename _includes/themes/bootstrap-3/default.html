@@ -38,8 +38,15 @@
     
     <script src="/assets/syntaxhighlighter/src/js/shCore.js"></script>
     <script src="/assets/syntaxhighlighter/src/js/shAutoloader.js"></script>
-	<link href="http://agorbatchev.typepad.com/pub/sh/3_0_83/styles/shCore.css" rel="stylesheet" type="text/css" />
-	<link href="http://agorbatchev.typepad.com/pub/sh/3_0_83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+	SyntaxHighlighter.autoloader(
+	  'bash 	 			  /js/shBrushBash.js',
+	  'php 	 				  /js/shBrushPhp.js',
+	  'js jscript javascript  /js/shBrushJScript.js',
+	  'applescript            /js/shBrushAppleScript.js'
+	);
+	SyntaxHighlighter.all();
+	</script>
 
     <!-- atom & rss feed -->
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
