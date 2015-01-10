@@ -20,51 +20,61 @@
     </div>
 
   {% unless page.categories == empty %}
-  	<div class="tag_vocabulary">Category:</div>
-    <ul class="tag_box inline">
-      <li><i class="glyphicon-open"></i></li>
-      {% assign categories_list = page.categories %}
-      {% include JB/categories_list %}
-    </ul>
+  	<div class="row">
+	  	<div class="tag_vocabulary col-xs-2">Category:</div>
+	    <ul class="tag_box inline col-xs-10">
+	      <li><i class="glyphicon-open"></i></li>
+	      {% assign categories_list = page.categories %}
+	      {% include JB/categories_list %}
+	    </ul>
+  	</div>
   {% endunless %}  
 
   {% unless page.tech == empty %}
-  	<div class="tag_vocabulary">Technologies:</div>
-    <ul class="tag_box inline">
-      <li><i class="glyphicon-tags"></i></li>
-      {% assign tags_list = page.tech %}
-      {% assign site.JB.tags_path = "/technology" %}
-      {% include JB/tags_list %}
-    </ul>
+  	<div class="row">
+	  	<div class="tag_vocabulary col-xs-2">Technologies:</div>
+	    <ul class="tag_box inline col-xs-10">
+	      <li><i class="glyphicon-tags"></i></li>
+	      {% assign tags_list = page.tech %}
+	      {% assign site.JB.tags_path = "/technology" %}
+	      {% include JB/tags_list %}
+	    </ul>
+	</div>
   {% endunless %}  
 
   {% unless page.team == empty %}
-  	<div class="tag_vocabulary">Team:</div>
-    <ul class="tag_box inline">
-      <li><i class="glyphicon-tags"></i></li>
-      {% assign tags_list = page.team %}
-      {% assign site.JB.tags_path = "/team" %}
-      {% include JB/tags_list %}
-    </ul>
+  	<div class="row">
+	  	<div class="tag_vocabulary col-xs-2">Team:</div>
+	    <ul class="tag_box inline col-xs-10">
+	      <li><i class="glyphicon-tags"></i></li>
+	      {% assign tags_list = page.team %}
+	      {% assign site.JB.tags_path = "/team" %}
+	      {% include JB/tags_list %}
+	    </ul>
+	</div>
   {% endunless %}  
 
   {% unless page.position == empty %}
-  	<div class="tag_vocabulary">Position:</div>
-    <ul class="tag_box inline">
-      <li><i class="glyphicon-tags"></i></li>
-      {% assign tags_list = page.position %}
-      {% assign site.JB.tags_path = "/position" %}
-      {% include JB/tags_list %}
-    </ul>
+  	<div class="row">
+	  	<div class="tag_vocabulary col-xs-2">Position:</div>
+	    <ul class="tag_box inline col-xs-10">
+	      <li><i class="glyphicon-tags"></i></li>
+	      {% assign tags_list = page.position %}
+	      {% assign site.JB.tags_path = "/position" %}
+	      {% include JB/tags_list %}
+	    </ul>
+	</div>
   {% endunless %}  
 
   {% unless page.tags == empty %}
-  	<div class="tag_vocabulary">Tags:</div>
-    <ul class="tag_box inline">
-      <li><i class="glyphicon-tags"></i></li>
-      {% assign tags_list = page.tags %}
-      {% include JB/tags_list %}
-    </ul>
+  	<div class="row">
+	  	<div class="tag_vocabulary col-xs-2">Tags:</div>
+	    <ul class="tag_box inline col-xs-10">
+	      <li><i class="glyphicon-tags"></i></li>
+	      {% assign tags_list = page.tags %}
+	      {% include JB/tags_list %}
+	    </ul>
+	</div>
   {% endunless %}  
   
     <hr>
