@@ -65,17 +65,6 @@
 	    </ul>
 	</div>
   {% endunless %}  
-
-  {% unless page.tags == null | page.tags == empty %}
-  	<div class="row">
-	  	<div class="tag_vocabulary col-xs-2">Tags:</div>
-	    <ul class="tag_box inline col-xs-10">
-	      <li><i class="glyphicon-tags"></i></li>
-	      {% assign tags_list = page.tags %}
-	      {% include JB/tags_list %}
-	    </ul>
-	</div>
-  {% endunless %}  
   
     <hr>
     <ul class="pagination">
