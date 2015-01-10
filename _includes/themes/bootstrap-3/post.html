@@ -20,6 +20,7 @@
     </div>
 
   {% unless page.categories == empty %}
+  	<div class="tag_vocabulary">Category:</div>
     <ul class="tag_box inline">
       <li><i class="glyphicon-open"></i></li>
       {% assign categories_list = page.categories %}
@@ -28,6 +29,7 @@
   {% endunless %}  
 
   {% unless page.tech == empty %}
+  	<div class="tag_vocabulary">Technologies:</div>
     <ul class="tag_box inline">
       <li><i class="glyphicon-tags"></i></li>
       {% assign tags_list = page.tech %}
@@ -37,6 +39,7 @@
   {% endunless %}  
 
   {% unless page.team == empty %}
+  	<div class="tag_vocabulary">Team:</div>
     <ul class="tag_box inline">
       <li><i class="glyphicon-tags"></i></li>
       {% assign tags_list = page.team %}
@@ -46,6 +49,7 @@
   {% endunless %}  
 
   {% unless page.position == empty %}
+  	<div class="tag_vocabulary">Position:</div>
     <ul class="tag_box inline">
       <li><i class="glyphicon-tags"></i></li>
       {% assign tags_list = page.position %}
@@ -55,6 +59,7 @@
   {% endunless %}  
 
   {% unless page.tags == empty %}
+  	<div class="tag_vocabulary">Tags:</div>
     <ul class="tag_box inline">
       <li><i class="glyphicon-tags"></i></li>
       {% assign tags_list = page.tags %}
