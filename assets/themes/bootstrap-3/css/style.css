@@ -53,6 +53,13 @@ h1, h2, h3, h4 {
 .post-full .date {
   margin-bottom: 20px;
   font-weight: bold; }
+  
+.post-full div.post-image {
+  width: 226px;
+  height: 226px;
+  padding: 2px;
+  border: 1px solid #ccc;
+}
 
 /* tag_box */
 .tag_box {
@@ -76,7 +83,7 @@ h1, h2, h3, h4 {
   color: #555;
   border-radius: 3px;
   text-decoration: none;
-  border: 1px dashed #cccccc; }
+  border: 1px dashed #ccc; }
 
 .tag_box a span {
   vertical-align: super;
