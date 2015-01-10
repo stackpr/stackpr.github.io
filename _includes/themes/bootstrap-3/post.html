@@ -26,6 +26,33 @@
     </ul>
   {% endunless %}  
 
+  {% unless page.tech == empty %}
+    <ul class="tag_box inline">
+      <li><i class="glyphicon-tags"></i></li>
+      {% assign tags_list = page.tech %}
+      {% assign site.JB.tags_path = "/technology" %}
+      {% include JB/tags_list %}
+    </ul>
+  {% endunless %}  
+
+  {% unless page.team == empty %}
+    <ul class="tag_box inline">
+      <li><i class="glyphicon-tags"></i></li>
+      {% assign tags_list = page.team %}
+      {% assign site.JB.tags_path = "/team" %}
+      {% include JB/tags_list %}
+    </ul>
+  {% endunless %}  
+
+  {% unless page.position == empty %}
+    <ul class="tag_box inline">
+      <li><i class="glyphicon-tags"></i></li>
+      {% assign tags_list = page.position %}
+      {% assign site.JB.tags_path = "/position" %}
+      {% include JB/tags_list %}
+    </ul>
+  {% endunless %}  
+
   {% unless page.tags == empty %}
     <ul class="tag_box inline">
       <li><i class="glyphicon-tags"></i></li>
