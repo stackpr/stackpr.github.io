@@ -30,7 +30,7 @@
   	</div>
   {% endunless %}  
 
-  {% unless page.tech == empty %}
+  {% unless page.tech == null | page.tech == empty %}
   	<div class="row">
 	  	<div class="tag_vocabulary col-xs-2">Technologies:</div>
 	    <ul class="tag_box inline col-xs-10">
@@ -42,7 +42,7 @@
 	</div>
   {% endunless %}  
 
-  {% unless page.team == empty %}
+  {% unless page.team == null | page.team == empty %}
   	<div class="row">
 	  	<div class="tag_vocabulary col-xs-2">Team:</div>
 	    <ul class="tag_box inline col-xs-10">
@@ -54,7 +54,7 @@
 	</div>
   {% endunless %}  
 
-  {% unless page.position == empty %}
+  {% unless page.position == null | page.position == empty %}
   	<div class="row">
 	  	<div class="tag_vocabulary col-xs-2">Position:</div>
 	    <ul class="tag_box inline col-xs-10">
@@ -66,7 +66,7 @@
 	</div>
   {% endunless %}  
 
-  {% unless page.tags == empty %}
+  {% unless page.tags == null | page.tags == empty %}
   	<div class="row">
 	  	<div class="tag_vocabulary col-xs-2">Tags:</div>
 	    <ul class="tag_box inline col-xs-10">
