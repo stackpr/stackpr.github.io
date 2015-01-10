@@ -59,6 +59,7 @@ h1, h2, h3, h4 {
   height: 226px;
   padding: 2px;
   border: 1px solid #ccc;
+  float: left;
 }
 
 /* tag_box */
