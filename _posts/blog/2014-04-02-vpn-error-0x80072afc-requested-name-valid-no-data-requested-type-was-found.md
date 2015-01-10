@@ -1,8 +1,16 @@
 ---
-title: "VPN Error 0x80072afc: The requested name is valid, but no data of the requested type was found."
-layout: "post"
-category: "blog"
-tags: ["Windows 2008","Windows 7","Windows VPN","VPN","SSL"]
+title: 'VPN Error 0x80072afc: The requested name is valid, but no data of the requested
+  type was found.'
+layout: post
+category: blog
+tech:
+- Windows 2008
+- Windows 7
+- Windows VPN
+- VPN
+- SSL
+permalink: /blog/2014/04/02/vpn-error-0x80072afc-requested-name-valid-no-data-requested-type-was-found
+
 ---
 {% include JB/setup %}
 <div id="node-332" class="node node-blog node-promoted">

@@ -1,8 +1,11 @@
 ---
-title: "Rename S3 Bucket"
-layout: "post"
-category: "blog"
-tags: ["Amazon S3"]
+title: Rename S3 Bucket
+layout: post
+category: blog
+tech:
+- Amazon S3
+permalink: /blog/2014/09/26/rename-s3-bucket
+
 ---
 {% include JB/setup %}
 <div id="node-339" class="node node-blog node-promoted">
