@@ -1,0 +1,2 @@
+git subtree add -P assets/syntaxhighlighter  https://github.com/syntaxhighlighter/syntaxhighlighter.git v3.0.9
+
