@@ -64,7 +64,7 @@ foreach (glob('files/*') as $path) {
 //       \( -clone 0 -resize 16x16 \) \
 //       \( -clone 0 -resize 32x32 \) \
 //       \( -clone 0 -resize 48x48 \) \
-//       -delete 0 -alpha off -colors 256 ../favicon.ico";
+//       -delete 0 -alpha off -colors 256 build/favicon.ico";
 // echo "$cmd\n";
 // system($cmd);
 
