@@ -58,6 +58,16 @@ foreach (glob('files/*') as $path) {
   }
 }
 
+// Build the favicon.ico
+// removed:       \( -clone 0 -resize 64x64 \) \
+// $cmd = "convert witti/w.png  -bordercolor white -border 0 \
+//       \( -clone 0 -resize 16x16 \) \
+//       \( -clone 0 -resize 32x32 \) \
+//       \( -clone 0 -resize 48x48 \) \
+//       -delete 0 -alpha off -colors 256 ../favicon.ico";
+// echo "$cmd\n";
+// system($cmd);
+
 // Compile the JS.
 $js_paths = array(
   'themes/bootstrap-3/bootstrap/js/bootstrap.min.js',
