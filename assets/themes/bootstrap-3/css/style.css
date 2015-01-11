@@ -25,6 +25,10 @@
   color: #fff;
 }
 
+.syntaxhighlighter div.toolbar {
+	display: none;
+}
+
 /* Jekyll Bootstrap Colors */
 h1, h2, h3, h4 {
   color: #666;
