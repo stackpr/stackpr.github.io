@@ -1,2 +1,3 @@
 git subtree add -P assets/syntaxhighlighter  https://github.com/syntaxhighlighter/syntaxhighlighter.git v3.0.9
+git subtree add -P assets/xregexp https://github.com/slevithan/xregexp.git v2.0.0
 

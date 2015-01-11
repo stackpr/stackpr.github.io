@@ -61,6 +61,7 @@ foreach (glob('files/*') as $path) {
 // Compile the JS.
 $js_paths = array(
   'themes/bootstrap-3/bootstrap/js/bootstrap.min.js',
+  'xregexp/min/xregexp-min.js',
   'syntaxhighlighter/src/js/shCore.js',
   'syntaxhighlighter/src/js/shBrushBash.js',
   'syntaxhighlighter/src/js/shBrushCss.js',
