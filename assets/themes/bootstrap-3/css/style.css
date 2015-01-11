@@ -25,6 +25,9 @@
   color: #fff;
 }
 
+.syntaxhighlighter {
+	margin: 1em 0;
+}
 .syntaxhighlighter div.toolbar {
 	display: none;
 }
