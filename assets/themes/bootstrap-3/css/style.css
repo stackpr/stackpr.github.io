@@ -28,6 +28,10 @@
 .syntaxhighlighter div.toolbar {
 	display: none;
 }
+.syntaxhighlighter code {
+	background: none;
+	border: none;
+}
 
 /* Jekyll Bootstrap Colors */
 h1, h2, h3, h4 {
