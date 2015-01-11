@@ -39,11 +39,6 @@
     <!-- atom & rss feed -->
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
-
-	<!-- http://alexgorbatchev.com/SyntaxHighlighter/hosting.html -->
-	<link href="http://agorbatchev.typepad.com/pub/sh/3_0_83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
-	<script src="http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shCore.js" type="text/javascript"></script>
-	<script src="http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shAutoloader.js" type="text/javascript"></script>
   </head>
 
   <body>
@@ -121,6 +116,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
     
+	<!-- http://alexgorbatchev.com/SyntaxHighlighter/hosting.html -->
+	<link href="http://agorbatchev.typepad.com/pub/sh/3_0_83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
+	<script src="http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shCore.js" type="text/javascript"></script>
+	<script src="http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shAutoloader.js" type="text/javascript"></script>
+    
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script>
     (adsbygoogle = window.adsbygoogle || []).push({},{});
@@ -130,6 +130,34 @@
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
     ga('create', 'UA-10737547-1', 'auto');
     ga('send', 'pageview');
+    
+    SyntaxHighlighter.autoloader(
+        'as3 http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shBrushAS3.js',
+        'applescript http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shBrushAppleScript.js',
+        'bash http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shBrushBash.js',
+        'csharp http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shBrushCSharp.js',
+        'coldfusion http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shBrushColdFusion.js',
+        'cpp http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shBrushCpp.js',
+        'css http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shBrushCss.js',
+        'delphi http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shBrushDelphi.js',
+        'diff http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shBrushDiff.js',
+        'erlang http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shBrushErlang.js',
+        'groovy http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shBrushGroovy.js',
+        'jscript http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shBrushJScript.js',
+        'java http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shBrushJava.js',
+        'javafx http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shBrushJavaFX.js',
+        'perl http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shBrushPerl.js',
+        'php http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shBrushPhp.js',
+        'plain http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shBrushPlain.js',
+        'powershell http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shBrushPowerShell.js',
+        'python http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shBrushPython.js',
+        'ruby http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shBrushRuby.js',
+        'sass http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shBrushSass.js',
+        'scala http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shBrushScala.js',
+        'sql http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shBrushSql.js',
+        'vb http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shBrushVb.js',
+        'xml http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shBrushXml.js'
+      );
     </script>
   </body>
 </html>
