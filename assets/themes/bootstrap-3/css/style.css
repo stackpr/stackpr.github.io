@@ -34,6 +34,7 @@
 .syntaxhighlighter code {
 	background: none;
 	border: none;
+	padding: 0;
 }
 .syntaxhighlighter table td.gutter .line {
 	text-align: right !important;
