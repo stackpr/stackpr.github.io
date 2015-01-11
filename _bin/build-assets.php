@@ -57,3 +57,18 @@ foreach (glob('files/*') as $path) {
     }
   }
 }
+
+// Compile the JS.
+$js_paths = array(
+  'syntaxhighlighter/src/js/shCore.js',
+  'syntaxhighlighter/src/js/shBrushBash.js',
+  'syntaxhighlighter/src/js/shBrushCss.js',
+  'syntaxhighlighter/src/js/shBrushJScript.js',
+  'syntaxhighlighter/src/js/shBrushPhp.js',
+  'syntaxhighlighter/src/js/shBrushSql.js',
+  'syntaxhighlighter/src/js/shBrushVb.js',
+  'syntaxhighlighter/src/js/shBrushXml.js',
+);
+$cmd = "uglifyjs " . join(' ', $js_paths) . " --compress --mangle -o build/site.js";
+echo "$cmd\n";
+system($cmd);
