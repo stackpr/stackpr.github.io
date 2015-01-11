@@ -60,6 +60,7 @@ foreach (glob('files/*') as $path) {
 
 // Compile the JS.
 $js_paths = array(
+  'themes/bootstrap-3/bootstrap/js/bootstrap.min.js',
   'syntaxhighlighter/src/js/shCore.js',
   'syntaxhighlighter/src/js/shBrushBash.js',
   'syntaxhighlighter/src/js/shBrushCss.js',
@@ -69,6 +70,7 @@ $js_paths = array(
   'syntaxhighlighter/src/js/shBrushVb.js',
   'syntaxhighlighter/src/js/shBrushXml.js',
 );
-$cmd = "uglifyjs " . join(' ', $js_paths) . " --compress --mangle -o build/site.js";
+$cmd = "uglifyjs " . join(' ', $js_paths)
+  . " --compress --mangle -o build/site.js";
 echo "$cmd\n";
 system($cmd);
