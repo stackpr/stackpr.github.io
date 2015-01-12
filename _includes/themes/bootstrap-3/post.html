@@ -84,3 +84,10 @@
     {% include JB/comments %}
   </div>
 </div>
+
+{% unless page.js == null | page.js == empty %}
+	{% for j in js %}
+	<script src="{{ j }}"></script>
+	{% endfor %}
+	<script src=""
+{% endunless %}

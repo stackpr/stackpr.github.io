@@ -5,6 +5,8 @@ category: blog
 tech:
 - JS
 permalink: /blog/2013/12/05/visualization-test-page
+js:
+- http://www.admin.witti.ws/sites/all/libraries/visualization/visualization.js?t=
 published: false
 
 ---

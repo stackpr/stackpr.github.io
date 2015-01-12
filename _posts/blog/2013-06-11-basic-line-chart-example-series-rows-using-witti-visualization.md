@@ -6,6 +6,8 @@ tech:
 - JS
 - Google Visualization API
 permalink: /blog/2013/06/11/basic-line-chart-example-series-rows-using-witti-visualization
+js:
+- http://l.wcdn.ws/lib/visualization/visualization.min.js
 
 ---
 {% include JB/setup %}
@@ -44,7 +46,7 @@ permalink: /blog/2013/06/11/basic-line-chart-example-series-rows-using-witti-vis
 <h2>
 	Demo (Example Line Chart)</h2>
 <div data-gv-datatablerotate="true" data-gv-legend="right" data-gv-type="LineChart" style="width:100%; height:300px;">
-		<table border="1" cellpadding="1" cellspacing="0" style="width: 100%;">
+	<table border="1" cellpadding="1" cellspacing="0" style="width: 100%;">
 		<caption>
 			Example Table</caption>
 		<thead>
