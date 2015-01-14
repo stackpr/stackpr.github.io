@@ -32,6 +32,15 @@ production_url : http://wittiws.github.io
 #
 JB :
   version : 0.3.0
+  
+  posts_collate:
+    provider: custom
+    
+  # Suppress links to the following types.
+  hide_types:
+    - portfolio
+    - park
+    - project
 
   # All links will be namespaced by BASE_PATH if defined.
   # Links in your website should always be prefixed with {{BASE_PATH}}
