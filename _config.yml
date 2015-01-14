@@ -35,6 +35,8 @@ JB :
   
   posts_collate:
     provider: custom
+  categories_list:
+    provider: custom
     
   # Suppress links to the following types.
   hide_categories: ["portfolio", "park", "project"]
