@@ -37,10 +37,7 @@ JB :
     provider: custom
     
   # Suppress links to the following types.
-  hide_categories:
-    - portfolio
-    - park
-    - project
+  hide_categories: ["portfolio", "park", "project"]
 
   # All links will be namespaced by BASE_PATH if defined.
   # Links in your website should always be prefixed with {{BASE_PATH}}
