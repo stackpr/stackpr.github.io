@@ -37,7 +37,7 @@ JB :
     provider: custom
     
   # Suppress links to the following types.
-  hide_types:
+  hide_categories:
     - portfolio
     - park
     - project
