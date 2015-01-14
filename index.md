@@ -9,5 +9,6 @@ tagline: blog and portfolio
   {% for post in site.posts %}
   	{% unless site.JB.hide_categories == null | site.JB.hide_categories contains post.category[0] %}
   	  <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  	{% endunless %}
   {% endfor %}
 </ul>
