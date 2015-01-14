@@ -4,9 +4,11 @@
 
 <div class="row post-full">
   <div class="col-xs-12">
-    <div class="date">
-      <span>{{ page.date | date_to_long_string }}</span>
-    </div>
+  	{% unless page.category == "project" %}
+	    <div class="date">
+	      <span>{{ page.date | date_to_long_string }}</span>
+	    </div>
+	{% endunless %}
     {% unless page.images == empty %}
     	{% for img in page.images %}
     		<div class="post-image">
