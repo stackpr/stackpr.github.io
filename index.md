@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Recent Posts
-tagline: blog and portfolio
+tagline: another tech blog
 ---
 {% include JB/setup %}
 
