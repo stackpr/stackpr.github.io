@@ -50,9 +50,9 @@
 	  	<div class="tag_vocabulary col-xs-2">Team:</div>
 	    <ul class="tag_box inline col-xs-10">
 	      <li><i class="glyphicon-tags"></i></li>
-	      {% assign tags_list = page.team %}
-	      {% assign site.JB.tags_path = "/team" %}
-	      {% include JB/tags_list %}
+	      {% for t in page.team %}
+	      <li>{{ t }}</li>
+	      {% endfor %}
 	    </ul>
 	</div>
   {% endunless %}  
