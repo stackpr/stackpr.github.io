@@ -141,5 +141,15 @@
     
     SyntaxHighlighter.all();
     </script>
+
+	{% unless page.js == null | page.js == empty %}
+		{% for j in page.js %}
+			{% if j == "jquery" %}
+				<!-- jQuery should already be available. -->
+			{% else %}
+				<script src="{{ j }}"></script>
+			{% endif %}
+		{% endfor %}
+	{% endunless %}
   </body>
 </html>

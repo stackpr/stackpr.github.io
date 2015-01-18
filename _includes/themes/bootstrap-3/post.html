@@ -87,13 +87,3 @@
     {% include JB/comments %}
   </div>
 </div>
-
-{% unless page.js == null | page.js == empty %}
-	{% for j in page.js %}
-		{% if j == "jquery" %}
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-		{% else %}
-			<script src="{{ j }}"></script>
-		{% endif %}
-	{% endfor %}
-{% endunless %}
