@@ -42,7 +42,7 @@ JB :
   hide_categories: ["portfolio", "park", "project"]
   
   # Show hidden categories
-  sitemap_categories: ["portfolio"]
+  sitemap_categories: ["project"]
 
   # All links will be namespaced by BASE_PATH if defined.
   # Links in your website should always be prefixed with {{BASE_PATH}}

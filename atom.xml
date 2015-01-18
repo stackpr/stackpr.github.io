@@ -15,7 +15,7 @@ title : Atom Feed
    <email>{{ site.author.email }}</email>
  </author>
 
- {% for post in site.posts %}
+ {% for post in site.posts %}{% unless site.JB.hide_categories contains post.category %}
  <entry>
    <title>{{ post.title }}</title>
    <link href="{{ site.production_url }}{{ post.url }}"/>
@@ -23,6 +23,6 @@ title : Atom Feed
    <id>{{ site.production_url }}{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
- {% endfor %}
+ {% endunless %}{% endfor %}
  
 </feed>
