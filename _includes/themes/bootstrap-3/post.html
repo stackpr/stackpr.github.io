@@ -77,8 +77,7 @@
 </div>
 
 {% unless page.js == null | page.js == empty %}
-	{% for j in js %}
-	<script src="{{ j }}"></script>
+	{% for j in page.js %}
+		<script src="{{ j }}"></script>
 	{% endfor %}
-	<script src=""
 {% endunless %}
