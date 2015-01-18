@@ -11,6 +11,9 @@ images:
 - thermometer_400x400.png
 - thermometer_400x400_2500.png
 - thermometer_400x400_6000.png
+references:
+- title: thermometer.svg
+  link: /assets/files/thermometer.svg
 
 ---
 {% include JB/setup %}
@@ -70,5 +73,5 @@ apt-get install imagemagick msttcorefonts</pre>
 		<a href="http://www.school-fundraisers.com/fundraising-thermometer.php">Fundraising Thermometer Widget ~ Fundraising Thermometer Graphic</a></li>
 	<li>
 		<a href="http://foofurple.com/thermometer/">Make a charity fundraising thermometer image | Foofurple</a></li>
-</ol></div></div></div><div class="field field-name-field-document field-type-file field-label-above"><div class="field-label">Document:&nbsp;</div><div class="field-items"><div class="field-item even"><span class="file"><img class="file-icon" alt="" title="image/svg+xml" src="http://w.wcdn.ws/cdn/farfuture/5BLCfr5fS1vaf6MuKfh40wQoUKIFM2S5DjpHy30EImA/drupal:7.15-dev/modules/file/icons/image-x-generic.png" /> <a href="http://w.wcdn.ws/cdn/farfuture/SSgf5W7Ru-rXmkpWJx6d2-iGURhltqGoPzRZ5xlPst0/md5:a66b24fb2ce4810efb24fa0034921d2b/sites/default/files/blog/thermometer.svg" type="image/svg+xml; length=11171">thermometer.svg</a></span></div></div></div>  </div>
+</ol></div></div></div>  </div>
 </div>
