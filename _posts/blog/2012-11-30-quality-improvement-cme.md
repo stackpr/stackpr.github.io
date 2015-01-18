@@ -2,7 +2,7 @@
 title: Quality Improvement for CME
 layout: post
 category: blog
-tech:
+tags:
 - CME Outcomes
 - ACPE
 permalink: /blog/2012/11/30/quality-improvement-cme

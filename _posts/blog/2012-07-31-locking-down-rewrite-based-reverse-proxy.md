@@ -2,7 +2,7 @@
 title: Locking Down the Rewrite-Based Reverse Proxy
 layout: post
 category: blog
-tech:
+tags:
 - Apache
 - Linux
 permalink: /blog/2012/07/31/locking-down-rewrite-based-reverse-proxy

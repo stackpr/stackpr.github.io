@@ -2,7 +2,7 @@
 title: SSH Server on Windows for Local PHP Development
 layout: post
 category: blog
-tech:
+tags:
 - Linux
 - Cygwin
 - Windows

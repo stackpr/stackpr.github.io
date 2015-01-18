@@ -2,7 +2,7 @@
 title: SWF Conversion
 layout: post
 category: blog
-tech:
+tags:
 - Linux
 - Flash
 permalink: /blog/2011/09/02/swf-conversion

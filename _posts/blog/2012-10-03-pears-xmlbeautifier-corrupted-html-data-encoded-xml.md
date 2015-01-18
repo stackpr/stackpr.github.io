@@ -2,7 +2,7 @@
 title: Pear's XML_Beautifier corrupted HTML data encoded in XML
 layout: post
 category: blog
-tech:
+tags:
 - PHP
 - Pear
 - XML_Beautifier

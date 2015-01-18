@@ -2,7 +2,7 @@
 title: S3 Object Expiration for Web Service Integrations
 layout: post
 category: blog
-tech:
+tags:
 - Crocodoc
 - Amazon S3
 permalink: /blog/2012/07/13/s3-object-expiration-web-service-integrations

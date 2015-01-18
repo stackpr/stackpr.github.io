@@ -2,7 +2,7 @@
 title: MediaMonkey
 layout: post
 category: blog
-tech:
+tags:
 - Windows 7
 - MediaMonkey
 permalink: /blog/2012/07/24/mediamonkey

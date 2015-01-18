@@ -2,7 +2,7 @@
 title: Corralled!
 layout: post
 category: portfolio
-tech:
+tags:
 - Games
 permalink: /portfolio/corralled
 images:

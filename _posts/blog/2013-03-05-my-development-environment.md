@@ -2,7 +2,7 @@
 title: My Development Environment
 layout: post
 category: blog
-tech:
+tags:
 - Windows
 - PHP
 - Eclipse

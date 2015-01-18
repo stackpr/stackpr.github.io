@@ -2,7 +2,7 @@
 title: Biblio Book Lookup by ISBN
 layout: post
 category: portfolio
-tech:
+tags:
 - Drupal
 - PHP
 - Amazon

@@ -2,7 +2,7 @@
 title: Polycom SoundPoint IP 550 Configuration
 layout: post
 category: blog
-tech:
+tags:
 - VoIP
 - SIP
 - Polycom SoundPoint IP 550

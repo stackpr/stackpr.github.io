@@ -2,7 +2,7 @@
 title: BRPOnline.com
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - CSS
 - JS

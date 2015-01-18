@@ -2,7 +2,7 @@
 title: Even Worse Word Multilevel List Style Bugs
 layout: post
 category: blog
-tech:
+tags:
 - Microsoft Word
 - Microsoft Office
 permalink: /blog/2013/06/04/even-worse-word-multilevel-list-style-bugs

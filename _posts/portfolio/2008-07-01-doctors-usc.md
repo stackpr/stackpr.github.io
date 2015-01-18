@@ -2,7 +2,7 @@
 title: The Doctors of USC
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - Linux
 - Amazon S3

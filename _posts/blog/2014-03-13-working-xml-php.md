@@ -4,7 +4,7 @@ layout: post
 category: blog
 project:
 - /project/quipxml
-tech:
+tags:
 - PHP
 permalink: /blog/2014/03/13/working-xml-php
 

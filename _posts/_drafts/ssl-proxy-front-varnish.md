@@ -2,7 +2,7 @@
 title: SSL Proxy for in front of Varnish
 layout: post
 category: blog
-tech:
+tags:
 - Varnish
 - Pound
 - SSL

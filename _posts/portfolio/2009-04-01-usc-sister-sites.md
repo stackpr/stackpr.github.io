@@ -2,7 +2,7 @@
 title: USC Sister Sites
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - Drupal
 - Assistant

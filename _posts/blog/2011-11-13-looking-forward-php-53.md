@@ -2,7 +2,7 @@
 title: Looking forward to PHP 5.3
 layout: post
 category: blog
-tech:
+tags:
 - PHP
 - Linux
 - Apache

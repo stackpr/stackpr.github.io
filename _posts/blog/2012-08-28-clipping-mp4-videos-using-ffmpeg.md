@@ -2,7 +2,7 @@
 title: Clipping MP4 videos using ffmpeg
 layout: post
 category: blog
-tech:
+tags:
 - ffmpeg
 permalink: /blog/2012/08/28/clipping-mp4-videos-using-ffmpeg
 

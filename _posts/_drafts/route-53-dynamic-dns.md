@@ -2,7 +2,7 @@
 title: Route 53 Dynamic DNS
 layout: post
 category: blog
-tech:
+tags:
 - AWS
 - Amazon Route 53
 - DNS

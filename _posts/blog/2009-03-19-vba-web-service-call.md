@@ -2,7 +2,7 @@
 title: VBA Web Service Call
 layout: post
 category: blog
-tech:
+tags:
 - VBA
 permalink: /blog/2009/03/19/vba-web-service-call
 

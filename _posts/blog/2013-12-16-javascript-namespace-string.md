@@ -2,7 +2,7 @@
 title: JavaScript Namespace from String
 layout: post
 category: blog
-tech:
+tags:
 - JS
 permalink: /blog/2013/12/16/javascript-namespace-string
 

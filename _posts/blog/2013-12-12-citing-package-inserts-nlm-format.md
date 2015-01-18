@@ -2,7 +2,7 @@
 title: Citing Package Inserts in NLM Format
 layout: post
 category: blog
-tech:
+tags:
 - Citations
 permalink: /blog/2013/12/12/citing-package-inserts-nlm-format
 

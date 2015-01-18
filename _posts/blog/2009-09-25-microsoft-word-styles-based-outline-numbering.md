@@ -2,7 +2,7 @@
 title: Microsoft Word Styles-Based Outline Numbering
 layout: post
 category: blog
-tech:
+tags:
 - Microsoft Office
 - Microsoft Word
 permalink: /blog/2009/09/25/microsoft-word-styles-based-outline-numbering

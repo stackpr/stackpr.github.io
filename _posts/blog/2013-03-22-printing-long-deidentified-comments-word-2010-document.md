@@ -2,7 +2,7 @@
 title: Printing Long Deidentified Comments on a Word 2010 Document
 layout: post
 category: blog
-tech:
+tags:
 - Microsoft Word
 permalink: /blog/2013/03/22/printing-long-deidentified-comments-word-2010-document
 images:

@@ -2,7 +2,7 @@
 title: Making Word Usable
 layout: post
 category: blog
-tech:
+tags:
 - Microsoft Word
 permalink: /blog/2012/08/20/making-word-usable
 images:

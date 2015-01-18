@@ -2,7 +2,7 @@
 title: CPNP University
 layout: post
 category: portfolio
-tech:
+tags:
 - Logo
 - Drupal
 - PHP

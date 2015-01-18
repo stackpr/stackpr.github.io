@@ -2,7 +2,7 @@
 title: Avoid Autoresponders to Email List Messages
 layout: post
 category: blog
-tech:
+tags:
 - Icewarp
 - Email List
 permalink: /blog/2012/08/17/avoid-autoresponders-email-list-messages

@@ -2,7 +2,7 @@
 title: Optimizing the LAMP Stack - Part IV
 layout: post
 category: portfolio
-tech:
+tags:
 - Linux
 - Amazon EC2
 - Amazon RDS

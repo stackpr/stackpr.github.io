@@ -2,7 +2,7 @@
 title: Simple Responsive Themes
 layout: post
 category: blog
-tech:
+tags:
 - Drupal
 permalink: /blog/2014/02/24/simple-responsive-themes
 published: false

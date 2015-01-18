@@ -2,7 +2,7 @@
 title: Design Your Own Weatherby
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - XML
 - Slang

@@ -2,7 +2,7 @@
 title: Drupal and Solr - Improving Site Search
 layout: post
 category: blog
-tech:
+tags:
 - Drupal
 - Solr
 - Lucene

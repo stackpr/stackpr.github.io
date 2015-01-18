@@ -2,7 +2,7 @@
 title: Dynamically Create Images on S3 with Cloudfront Support
 layout: post
 category: blog
-tech:
+tags:
 - Amazon S3
 - CloudFront
 permalink: /blog/2012/12/04/dynamically-create-images-s3-cloudfront-support

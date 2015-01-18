@@ -2,7 +2,7 @@
 title: Calls Randomly Transferred to Voicemail on SPA8800 with Axon
 layout: post
 category: blog
-tech:
+tags:
 - SPA8800
 - VoIP
 - SIP

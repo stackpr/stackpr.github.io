@@ -2,7 +2,7 @@
 title: Mobile Version of Meeting Resources
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - Drupal
 - jQuery

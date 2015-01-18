@@ -2,7 +2,7 @@
 title: Vimeo Privacy and Proxy Security
 layout: post
 category: blog
-tech:
+tags:
 - Vimeo
 permalink: /blog/2013/04/30/vimeo-privacy-and-proxy-security
 

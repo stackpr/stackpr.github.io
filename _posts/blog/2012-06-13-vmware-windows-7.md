@@ -2,7 +2,7 @@
 title: VMWare on Windows 7
 layout: post
 category: blog
-tech:
+tags:
 - Windows
 - VMware
 permalink: /blog/2012/06/13/vmware-windows-7

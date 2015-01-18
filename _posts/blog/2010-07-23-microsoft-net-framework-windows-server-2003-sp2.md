@@ -2,7 +2,7 @@
 title: Microsoft .NET Framework on Windows Server 2003 SP2
 layout: post
 category: blog
-tech:
+tags:
 - Windows Server 2003
 permalink: /blog/2010/07/23/microsoft-net-framework-windows-server-2003-sp2
 

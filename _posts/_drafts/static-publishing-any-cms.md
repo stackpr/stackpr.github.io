@@ -2,7 +2,7 @@
 title: Static publishing from any CMS
 layout: post
 category: blog
-tech:
+tags:
 - wget
 permalink: /blog/2014/04/10/static-publishing-any-cms
 published: false

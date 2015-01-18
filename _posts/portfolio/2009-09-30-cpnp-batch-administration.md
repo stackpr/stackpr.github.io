@@ -2,7 +2,7 @@
 title: CPNP Batch Administration
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - Drupal
 - JS

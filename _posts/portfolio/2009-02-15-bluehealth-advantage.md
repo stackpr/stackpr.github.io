@@ -2,7 +2,7 @@
 title: BlueHealth Advantage
 layout: post
 category: portfolio
-tech:
+tags:
 - ASP.Net
 - C#
 - Ektron CMS400.Net

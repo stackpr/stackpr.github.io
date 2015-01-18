@@ -2,7 +2,7 @@
 title: Automatic Backup - EBS Snapshots
 layout: post
 category: blog
-tech:
+tags:
 - Amazon EC2
 - Amazon IAM
 permalink: /blog/2013/06/24/automatic-backup-ebs-snapshots

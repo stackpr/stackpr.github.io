@@ -2,7 +2,7 @@
 title: Get Server's Local IP with PHP
 layout: post
 category: blog
-tech:
+tags:
 - PHP
 permalink: /blog/2014/03/19/get-servers-local-ip-php
 

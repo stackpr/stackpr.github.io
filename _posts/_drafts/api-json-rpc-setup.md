@@ -2,7 +2,7 @@
 title: API for JSON-RPC Setup
 layout: post
 category: blog
-tech:
+tags:
 - JSON-RPC
 permalink: /blog/2012/10/22/api-json-rpc-setup
 published: false

@@ -2,7 +2,7 @@
 title: Extending drupal status message system
 layout: post
 category: blog
-tech:
+tags:
 - Drupal
 permalink: /blog/2013/12/25/extending-drupal-status-message-system
 published: false

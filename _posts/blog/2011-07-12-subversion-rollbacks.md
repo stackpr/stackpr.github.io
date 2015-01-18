@@ -2,7 +2,7 @@
 title: Subversion Rollbacks
 layout: post
 category: blog
-tech:
+tags:
 - Linux
 - Subversion
 permalink: /blog/2011/07/12/subversion-rollbacks

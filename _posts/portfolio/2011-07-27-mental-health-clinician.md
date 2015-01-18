@@ -2,7 +2,7 @@
 title: The Mental Health Clinician
 layout: post
 category: portfolio
-tech:
+tags:
 - Drupal
 - Logo
 team:

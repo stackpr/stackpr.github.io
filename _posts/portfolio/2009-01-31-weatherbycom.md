@@ -2,7 +2,7 @@
 title: Weatherby.com
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - Linux
 - Amazon S3

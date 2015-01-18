@@ -2,7 +2,7 @@
 title: Penalties to Database Caching
 layout: post
 category: blog
-tech:
+tags:
 - Drupal
 - APC
 - Amazon RDS

@@ -2,7 +2,7 @@
 title: EC2 Hardware Problem?
 layout: post
 category: blog
-tech:
+tags:
 - Amazon EC2
 - Linux
 permalink: /blog/2012/06/03/ec2-hardware-problem

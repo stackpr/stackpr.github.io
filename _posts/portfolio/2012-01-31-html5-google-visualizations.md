@@ -2,7 +2,7 @@
 title: HTML5 Google Visualizations
 layout: post
 category: portfolio
-tech:
+tags:
 - JS
 - HTML5
 permalink: /portfolio/html5-google-visualizations

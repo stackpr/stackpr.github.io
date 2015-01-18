@@ -2,7 +2,7 @@
 title: VMware ESXi
 layout: post
 category: blog
-tech:
+tags:
 - VMware
 permalink: /blog/2011/07/28/vmware-esxi
 

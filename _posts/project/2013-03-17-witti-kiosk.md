@@ -2,7 +2,7 @@
 title: Witti Kiosk
 layout: post
 category: project
-tech:
+tags:
 - PHP
 - Linux
 - Ubuntu

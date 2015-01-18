@@ -2,7 +2,7 @@
 title: Collaborate
 layout: post
 category: portfolio
-tech:
+tags:
 - GoRad
 - PHP
 - MySQL

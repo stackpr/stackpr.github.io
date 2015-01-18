@@ -2,7 +2,7 @@
 title: NSEA - Nebraska State Education Association
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - GRAVEL
 team:

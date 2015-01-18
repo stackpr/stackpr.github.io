@@ -2,7 +2,7 @@
 title: Jail System and Contributed Patch
 layout: post
 category: portfolio
-tech:
+tags:
 - Linux
 - C
 position:

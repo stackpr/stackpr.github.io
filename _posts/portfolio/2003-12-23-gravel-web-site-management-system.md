@@ -2,7 +2,7 @@
 title: GRAVEL Web Site Management System
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - MySQL
 team:

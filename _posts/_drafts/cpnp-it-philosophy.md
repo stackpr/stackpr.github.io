@@ -2,7 +2,7 @@
 title: CPNP IT Philosophy
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - Linux
 - GoRad

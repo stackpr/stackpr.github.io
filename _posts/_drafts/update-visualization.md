@@ -2,7 +2,7 @@
 title: Update to visualization
 layout: post
 category: blog
-tech:
+tags:
 - jQuery
 permalink: /blog/2013/03/21/update-visualization
 published: false

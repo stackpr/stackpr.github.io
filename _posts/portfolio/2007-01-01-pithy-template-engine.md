@@ -2,7 +2,7 @@
 title: Pithy Template Engine
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - JS
 - VBScript

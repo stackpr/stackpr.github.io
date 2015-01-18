@@ -2,7 +2,7 @@
 title: Ektron CMS400.Net Certification
 layout: post
 category: portfolio
-tech:
+tags:
 - Ektron CMS400.Net
 permalink: /portfolio/ektron-cms400net-certification
 references:

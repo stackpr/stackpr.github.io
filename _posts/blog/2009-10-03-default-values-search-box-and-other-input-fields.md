@@ -2,7 +2,7 @@
 title: Default Values in Search Box and Other Input Fields
 layout: post
 category: blog
-tech:
+tags:
 - jQuery
 permalink: /blog/2009/10/03/default-values-search-box-and-other-input-fields
 

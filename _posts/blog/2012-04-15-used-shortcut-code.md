@@ -2,7 +2,7 @@
 title: Used the shortcut code.
 layout: post
 category: blog
-tech:
+tags:
 - Apache
 - PHP
 permalink: /blog/2012/04/15/used-shortcut-code

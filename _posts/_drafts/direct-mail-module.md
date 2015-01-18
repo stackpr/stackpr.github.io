@@ -2,7 +2,7 @@
 title: The Direct Mail Module
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - Drupal
 position:

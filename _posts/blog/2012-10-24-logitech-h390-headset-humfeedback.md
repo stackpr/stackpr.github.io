@@ -2,7 +2,7 @@
 title: Logitech h390 Headset Hum/Feedback
 layout: post
 category: blog
-tech:
+tags:
 - Audio
 - USB
 - Windows 7

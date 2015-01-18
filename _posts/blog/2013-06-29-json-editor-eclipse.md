@@ -2,7 +2,7 @@
 title: JSON Editor for Eclipse
 layout: post
 category: blog
-tech:
+tags:
 - Eclipse
 - JSON
 permalink: /blog/2013/06/29/json-editor-eclipse

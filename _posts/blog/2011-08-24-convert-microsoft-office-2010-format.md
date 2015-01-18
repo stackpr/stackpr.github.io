@@ -2,7 +2,7 @@
 title: Convert to Microsoft Office 2010 Format
 layout: post
 category: blog
-tech:
+tags:
 - Microsoft Office
 - Microsoft Word
 - Microsoft Excel

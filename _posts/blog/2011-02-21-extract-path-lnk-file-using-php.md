@@ -2,7 +2,7 @@
 title: Extract path from .lnk file using PHP
 layout: post
 category: blog
-tech:
+tags:
 - PHP
 - Linux
 - Windows

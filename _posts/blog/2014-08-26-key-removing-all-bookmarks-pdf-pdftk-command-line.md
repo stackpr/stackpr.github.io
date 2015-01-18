@@ -2,7 +2,7 @@
 title: Key to removing all bookmarks from PDF with PDFtk command-line
 layout: post
 category: blog
-tech:
+tags:
 - PDF
 - PDFtk
 permalink: /blog/2014/08/26/key-removing-all-bookmarks-pdf-pdftk-command-line

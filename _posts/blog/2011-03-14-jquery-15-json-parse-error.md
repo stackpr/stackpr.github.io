@@ -2,7 +2,7 @@
 title: jQuery 1.5 json parse error
 layout: post
 category: blog
-tech:
+tags:
 - PHP
 - Drupal
 - jQuery

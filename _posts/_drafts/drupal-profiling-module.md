@@ -2,7 +2,7 @@
 title: Drupal Profiling Module
 layout: post
 category: blog
-tech:
+tags:
 - Drupal
 - PHP
 permalink: /blog/2012/10/03/drupal-profiling-module

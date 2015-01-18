@@ -2,7 +2,7 @@
 title: Syslog on Windows
 layout: post
 category: blog
-tech:
+tags:
 - Syslog
 - Windows
 permalink: /blog/2012/05/18/syslog-windows

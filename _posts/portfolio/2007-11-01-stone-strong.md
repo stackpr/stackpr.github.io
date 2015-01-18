@@ -2,7 +2,7 @@
 title: Stone Strong
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - CSS
 - Dreamweaver

@@ -2,7 +2,7 @@
 title: Automated Weekly Update Email
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - Drupal
 - Zend Framework

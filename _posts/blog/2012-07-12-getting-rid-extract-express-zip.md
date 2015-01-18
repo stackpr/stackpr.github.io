@@ -2,7 +2,7 @@
 title: Getting Rid of "Extract with Express Zip"
 layout: post
 category: blog
-tech:
+tags:
 - Windows
 permalink: /blog/2012/07/12/getting-rid-extract-express-zip
 

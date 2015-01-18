@@ -2,7 +2,7 @@
 title: Improved Noise Filter in Linux
 layout: post
 category: blog
-tech:
+tags:
 - Linux
 - Audacity
 permalink: /blog/2010/08/24/improved-noise-filter-linux

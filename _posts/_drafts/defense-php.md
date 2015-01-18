@@ -2,7 +2,7 @@
 title: In Defense of PHP
 layout: post
 category: blog
-tech:
+tags:
 - PHP
 permalink: /blog/2012/07/23/defense-php
 published: false

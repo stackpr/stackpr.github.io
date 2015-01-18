@@ -2,7 +2,7 @@
 title: 'Bug Soup: Icewarp + Outlook + List Footer'
 layout: post
 category: blog
-tech:
+tags:
 - Icewarp
 - Microsoft Outlook
 - Email List

@@ -2,7 +2,7 @@
 title: Sync Ubercart to Quickbooks
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - Drupal
 - QuickBooks

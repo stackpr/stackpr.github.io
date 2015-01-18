@@ -2,7 +2,7 @@
 title: Installing PHP on Windows
 layout: post
 category: blog
-tech:
+tags:
 - PHP
 - Windows
 permalink: /blog/2014/01/21/installing-php-windows

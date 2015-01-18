@@ -2,7 +2,7 @@
 title: Scanstyles does nothing in Webkit/Firefox
 layout: post
 category: blog
-tech:
+tags:
 - JS
 - Internet Explorer
 permalink: /blog/2013/12/09/scanstyles-does-nothing-webkitfirefox

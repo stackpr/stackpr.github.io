@@ -2,7 +2,7 @@
 title: My first CMS
 layout: post
 category: portfolio
-tech:
+tags:
 - Linux
 - Perl
 team:

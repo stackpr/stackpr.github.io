@@ -2,7 +2,7 @@
 title: Online Image Editors
 layout: post
 category: blog
-tech:
+tags:
 - Graphics
 permalink: /blog/2012/10/08/online-image-editors
 published: false

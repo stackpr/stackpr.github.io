@@ -2,7 +2,7 @@
 title: Biblio Module Patches and Fixes
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - Drupal
 - Biblio

@@ -2,7 +2,7 @@
 title: Witti UI Compiler 1.0
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - Linux
 - Amazon S3

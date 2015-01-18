@@ -3,7 +3,7 @@ title: Single Users Still See "This content has been modified by another user, c
   cannot be saved."
 layout: post
 category: blog
-tech:
+tags:
 - Drupal
 permalink: /blog/2013/03/20/single-users-still-see-content-has-been-modified-another-user-changes-cannot-be
 

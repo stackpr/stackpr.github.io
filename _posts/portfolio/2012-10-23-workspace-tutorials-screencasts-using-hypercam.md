@@ -2,7 +2,7 @@
 title: Workspace Tutorials (Screencasts) using HyperCam
 layout: post
 category: portfolio
-tech:
+tags:
 - HyperCam
 - CamStudio
 - Workspace

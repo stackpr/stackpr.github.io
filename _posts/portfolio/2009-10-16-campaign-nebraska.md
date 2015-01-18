@@ -2,7 +2,7 @@
 title: Campaign for Nebraska
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - Linux
 - Drupal

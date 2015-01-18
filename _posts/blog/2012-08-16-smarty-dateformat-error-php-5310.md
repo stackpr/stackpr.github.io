@@ -2,7 +2,7 @@
 title: Smarty date_format Error on PHP 5.3.10
 layout: post
 category: blog
-tech:
+tags:
 - PHP
 - Smarty
 permalink: /blog/2012/08/16/smarty-dateformat-error-php-5310

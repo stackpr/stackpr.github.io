@@ -2,7 +2,7 @@
 title: For those who waited too long -- feedapi2feeds
 layout: post
 category: blog
-tech:
+tags:
 - Drupal
 - PHP
 - Feeds

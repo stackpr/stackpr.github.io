@@ -2,7 +2,7 @@
 title: The Mental Health Clinician - Open Access
 layout: post
 category: portfolio
-tech:
+tags:
 - Publishing
 team:
 - MHC Editorial Board

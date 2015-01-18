@@ -2,7 +2,7 @@
 title: Audio Houston
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - CSS
 - Dreamweaver

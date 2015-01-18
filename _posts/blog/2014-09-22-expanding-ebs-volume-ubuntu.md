@@ -2,7 +2,7 @@
 title: Expanding an EBS volume on Ubuntu
 layout: post
 category: blog
-tech:
+tags:
 - Amazon EC2
 - Amazon EBS
 permalink: /blog/2014/09/22/expanding-ebs-volume-ubuntu

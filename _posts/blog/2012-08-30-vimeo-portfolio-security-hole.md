@@ -2,7 +2,7 @@
 title: Vimeo Portfolio Security Hole
 layout: post
 category: blog
-tech:
+tags:
 - Vimeo
 - video
 permalink: /blog/2012/08/30/vimeo-portfolio-security-hole

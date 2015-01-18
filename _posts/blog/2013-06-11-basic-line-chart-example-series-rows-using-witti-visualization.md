@@ -4,7 +4,7 @@ layout: post
 category: blog
 project:
 - /project/witti-visualization
-tech:
+tags:
 - JS
 - Google Visualization API
 permalink: /blog/2013/06/11/basic-line-chart-example-series-rows-using-witti-visualization

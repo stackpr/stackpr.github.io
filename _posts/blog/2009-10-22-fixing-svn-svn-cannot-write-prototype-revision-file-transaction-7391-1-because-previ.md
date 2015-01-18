@@ -3,7 +3,7 @@ title: 'Fixing SVN: svn: Cannot write to the prototype revision file of transact
   ''7391-1'' because a previous representation...'
 layout: post
 category: blog
-tech:
+tags:
 - Linux
 - Subversion
 permalink: /blog/2009/10/22/fixing-svn-svn-cannot-write-prototype-revision-file-transaction-7391-1-because-previ

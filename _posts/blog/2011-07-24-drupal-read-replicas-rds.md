@@ -2,7 +2,7 @@
 title: Drupal Read Replicas on RDS
 layout: post
 category: blog
-tech:
+tags:
 - Amazon RDS
 - MySQL
 - Drupal

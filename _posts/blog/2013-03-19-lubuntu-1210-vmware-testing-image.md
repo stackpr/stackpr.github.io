@@ -4,7 +4,7 @@ layout: post
 category: blog
 project:
 - /project/witti-kiosk
-tech:
+tags:
 - Lubuntu
 permalink: /blog/2013/03/19/lubuntu-1210-vmware-testing-image
 

@@ -2,7 +2,7 @@
 title: Unstick your cron
 layout: post
 category: blog
-tech:
+tags:
 - Drupal
 - Drush
 permalink: /blog/2010/09/15/unstick-your-cron

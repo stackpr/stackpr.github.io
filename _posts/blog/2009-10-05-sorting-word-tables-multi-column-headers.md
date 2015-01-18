@@ -2,7 +2,7 @@
 title: Sorting Word tables with Multi-column Headers
 layout: post
 category: blog
-tech:
+tags:
 - Microsoft Office
 - Microsoft Word
 permalink: /blog/2009/10/05/sorting-word-tables-multi-column-headers

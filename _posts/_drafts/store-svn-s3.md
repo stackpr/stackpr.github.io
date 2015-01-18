@@ -2,7 +2,7 @@
 title: Store SVN on S3
 layout: post
 category: blog
-tech:
+tags:
 - Subversion
 permalink: /blog/2013/11/14/store-svn-s3
 published: false

@@ -2,7 +2,7 @@
 title: Optimizing the LAMP Stack
 layout: post
 category: portfolio
-tech:
+tags:
 - Linux
 - Drupal
 - Apache

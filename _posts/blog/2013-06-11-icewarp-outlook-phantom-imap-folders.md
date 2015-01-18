@@ -2,7 +2,7 @@
 title: Icewarp-Outlook Phantom IMAP Folders
 layout: post
 category: blog
-tech:
+tags:
 - Icewarp
 - Microsoft Outlook
 permalink: /blog/2013/06/11/icewarp-outlook-phantom-imap-folders

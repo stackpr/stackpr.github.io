@@ -2,7 +2,7 @@
 title: Outbrain
 layout: post
 category: blog
-tech:
+tags:
 - Advertising
 permalink: /blog/2013/11/25/outbrain
 published: false

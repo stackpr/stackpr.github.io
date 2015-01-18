@@ -2,7 +2,7 @@
 title: Cisco SPA8800 + Axon Virtual PBX + Polycom SoundPoint IP 550
 layout: post
 category: blog
-tech:
+tags:
 - VoIP
 - Axon Virtual PBX
 - Polycom SoundPoint IP 550

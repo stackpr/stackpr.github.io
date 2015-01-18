@@ -2,7 +2,7 @@
 title: Transitioning from s3sync to AWS CLI
 layout: post
 category: blog
-tech:
+tags:
 - Amazon S3
 - s3sync
 - AWS CLI

@@ -2,7 +2,7 @@
 title: Some corporations hate Amazon tech
 layout: post
 category: blog
-tech:
+tags:
 - Amazon S3
 - Amazon EC2
 permalink: /blog/2009/06/15/some-corporations-hate-amazon-tech

@@ -2,7 +2,7 @@
 title: New Tech Graphics
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - CSS
 - JS

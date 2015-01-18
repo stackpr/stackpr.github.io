@@ -2,7 +2,7 @@
 title: Firefox 20.0.1 breaks "for each()" JavaScript loop
 layout: post
 category: blog
-tech:
+tags:
 - JS
 - Firefox
 permalink: /blog/2013/04/15/firefox-2001-breaks-each-javascript-loop

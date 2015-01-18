@@ -2,7 +2,7 @@
 title: Cisco RV180W with Shrew Soft VPN Client
 layout: post
 category: blog
-tech:
+tags:
 - Networking
 - Cisco
 - RV180W

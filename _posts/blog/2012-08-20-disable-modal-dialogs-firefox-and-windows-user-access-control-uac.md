@@ -2,7 +2,7 @@
 title: Disable Modal Dialogs for Firefox and Windows User Access Control (UAC)
 layout: post
 category: blog
-tech:
+tags:
 - Windows
 - Firefox
 permalink: /blog/2012/08/20/disable-modal-dialogs-firefox-and-windows-user-access-control-uac

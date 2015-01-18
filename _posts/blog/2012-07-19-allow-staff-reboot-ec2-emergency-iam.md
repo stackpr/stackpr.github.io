@@ -2,7 +2,7 @@
 title: Allow Staff to Reboot EC2 in Emergency via IAM
 layout: post
 category: blog
-tech:
+tags:
 - Amazon EC2
 - Amazon IAM
 permalink: /blog/2012/07/19/allow-staff-reboot-ec2-emergency-iam

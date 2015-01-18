@@ -2,7 +2,7 @@
 title: Intelligent Use of Water
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - Amazon S3
 - ActionScript

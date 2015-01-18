@@ -2,7 +2,7 @@
 title: Cisco IOS - SDM command-line
 layout: post
 category: blog
-tech:
+tags:
 - Cisco
 permalink: /blog/2009/11/09/cisco-ios-sdm-command-line
 

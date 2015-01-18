@@ -2,7 +2,7 @@
 title: Bank of You
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - Linux
 - MySQL

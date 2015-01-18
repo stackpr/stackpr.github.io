@@ -2,7 +2,7 @@
 title: Using Google CDN with Drupal 7
 layout: post
 category: blog
-tech:
+tags:
 - Drupal
 - Drupal 7
 - jQuery

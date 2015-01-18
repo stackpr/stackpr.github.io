@@ -2,7 +2,7 @@
 title: Flow Charts
 layout: post
 category: blog
-tech:
+tags:
 - Windows
 - yEd
 permalink: /blog/2012/11/26/flow-charts

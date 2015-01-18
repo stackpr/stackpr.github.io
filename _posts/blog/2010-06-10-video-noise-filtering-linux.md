@@ -2,7 +2,7 @@
 title: Video Noise Filtering in Linux
 layout: post
 category: blog
-tech:
+tags:
 - Linux
 - Audacity
 - Kino

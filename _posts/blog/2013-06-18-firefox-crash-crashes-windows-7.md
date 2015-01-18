@@ -2,7 +2,7 @@
 title: Firefox Crash of Crashes on Windows 7
 layout: post
 category: blog
-tech:
+tags:
 - Firefox
 permalink: /blog/2013/06/18/firefox-crash-crashes-windows-7
 images:

@@ -2,7 +2,7 @@
 title: Strategic Planning
 layout: post
 category: portfolio
-tech:
+tags:
 - Administrative
 team:
 - Board

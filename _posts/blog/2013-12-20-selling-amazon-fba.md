@@ -2,7 +2,7 @@
 title: Selling on Amazon with FBA
 layout: post
 category: blog
-tech:
+tags:
 - Amazon
 permalink: /blog/2013/12/20/selling-amazon-fba
 images:

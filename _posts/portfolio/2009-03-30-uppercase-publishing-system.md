@@ -2,7 +2,7 @@
 title: Uppercase Publishing System
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - Linux
 permalink: /portfolio/uppercase-publishing-system

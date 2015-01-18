@@ -2,7 +2,7 @@
 title: Volunteer Committee Draft
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 position:
 - IT Director

@@ -2,7 +2,7 @@
 title: Gzip your lips
 layout: post
 category: blog
-tech:
+tags:
 - Linux
 - Flash
 permalink: /blog/2011/02/18/gzip-your-lips

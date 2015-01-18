@@ -2,7 +2,7 @@
 title: 'PowerPoint 2010 Error: "The application was unable to start correctly (0xc0000022)."'
 layout: post
 category: blog
-tech:
+tags:
 - Microsoft PowerPoint
 - Microsoft Outlook
 - Microsoft Office

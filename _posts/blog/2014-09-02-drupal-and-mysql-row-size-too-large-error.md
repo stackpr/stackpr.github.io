@@ -2,7 +2,7 @@
 title: Drupal and MySQL "Row size too large" Error
 layout: post
 category: blog
-tech:
+tags:
 - Drupal 6
 permalink: /blog/2014/09/02/drupal-and-mysql-row-size-too-large-error
 

@@ -2,7 +2,7 @@
 title: 'The 3-Way Bug: Intuit, Microsoft and Adobe'
 layout: post
 category: blog
-tech:
+tags:
 - Adobe Photoshop CS3
 - QuickBooks 2009
 - Windows Vista

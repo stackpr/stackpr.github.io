@@ -2,7 +2,7 @@
 title: Union Pacific Whistlestop (upwhistlestop.com)
 layout: post
 category: portfolio
-tech:
+tags:
 - CSS
 - JS
 team:

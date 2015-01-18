@@ -2,7 +2,7 @@
 title: Dream Big Hosting
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - Linux
 position:

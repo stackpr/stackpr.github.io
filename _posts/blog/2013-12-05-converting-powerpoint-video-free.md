@@ -2,7 +2,7 @@
 title: Converting PowerPoint to Video for Free
 layout: post
 category: blog
-tech:
+tags:
 - video
 - Microsoft PowerPoint
 permalink: /blog/2013/12/05/converting-powerpoint-video-free

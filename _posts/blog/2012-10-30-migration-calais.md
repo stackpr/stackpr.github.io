@@ -2,7 +2,7 @@
 title: Migration to Calais
 layout: post
 category: blog
-tech:
+tags:
 - Drupal
 - Calais
 permalink: /blog/2012/10/30/migration-calais

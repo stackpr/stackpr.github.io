@@ -3,7 +3,7 @@ title: 'VPN Error 0x80072afc: The requested name is valid, but no data of the re
   type was found.'
 layout: post
 category: blog
-tech:
+tags:
 - Windows 2008
 - Windows 7
 - Windows VPN

@@ -2,7 +2,7 @@
 title: Drupal clean URLs, the 'q' parameter, and an unfortunate behavior
 layout: post
 category: blog
-tech:
+tags:
 - Apache
 - Varnish
 - Drupal

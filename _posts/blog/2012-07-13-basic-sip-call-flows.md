@@ -2,7 +2,7 @@
 title: Basic SIP Call Flows
 layout: post
 category: blog
-tech:
+tags:
 - VoIP
 - SIP
 permalink: /blog/2012/07/13/basic-sip-call-flows

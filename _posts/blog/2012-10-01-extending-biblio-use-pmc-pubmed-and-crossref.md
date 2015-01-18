@@ -2,7 +2,7 @@
 title: Extending Biblio for Use with PMC, PubMed and CrossRef
 layout: post
 category: blog
-tech:
+tags:
 - Drupal
 - Biblio
 - CrossRef

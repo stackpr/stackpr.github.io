@@ -2,7 +2,7 @@
 title: do50.us API References
 layout: post
 category: blog
-tech:
+tags:
 - PHP
 - Drupal
 - ImageMagick

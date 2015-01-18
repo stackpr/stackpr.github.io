@@ -2,7 +2,7 @@
 title: Creighton UMC
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - CSS
 - JS

@@ -2,7 +2,7 @@
 title: Download Images from Shared Photostream with PHP
 layout: post
 category: blog
-tech:
+tags:
 - PHP
 - Drupal
 - Photostream

@@ -2,7 +2,7 @@
 title: Copy Word Multilevel List Styling
 layout: post
 category: blog
-tech:
+tags:
 - Microsoft Word
 - Microsoft Office
 permalink: /blog/2013/04/12/copy-word-multilevel-list-styling

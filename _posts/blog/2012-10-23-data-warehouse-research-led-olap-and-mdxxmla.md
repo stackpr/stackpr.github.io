@@ -2,7 +2,7 @@
 title: Data Warehouse Research Led to OLAP and MDX/XMLA
 layout: post
 category: blog
-tech:
+tags:
 - OLAP
 - MDX
 - XMLA

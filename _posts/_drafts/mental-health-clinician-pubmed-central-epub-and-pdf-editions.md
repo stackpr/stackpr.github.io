@@ -2,7 +2,7 @@
 title: 'The Mental Health Clinician: PubMed Central, Epub and PDF editions'
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - Drupal
 - Epub

@@ -2,7 +2,7 @@
 title: Zend_Dom_Query_Css2Xpath Sibling Selector Support
 layout: post
 category: blog
-tech:
+tags:
 - PHP
 - Zend Framework
 - XML

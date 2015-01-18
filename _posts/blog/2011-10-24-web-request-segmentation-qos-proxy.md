@@ -2,7 +2,7 @@
 title: Web Request Segmentation (QoS by Proxy)
 layout: post
 category: blog
-tech:
+tags:
 - Linux
 - Amazon EC2
 - Apache

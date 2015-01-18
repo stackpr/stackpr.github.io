@@ -2,7 +2,7 @@
 title: Word Mail Merge Dynamic Images
 layout: post
 category: blog
-tech:
+tags:
 - Microsoft Word
 permalink: /blog/2011/07/17/word-mail-merge-dynamic-images
 

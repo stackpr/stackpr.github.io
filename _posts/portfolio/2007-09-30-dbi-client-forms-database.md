@@ -2,7 +2,7 @@
 title: DBI Client Forms Database
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - Assistant
 team:

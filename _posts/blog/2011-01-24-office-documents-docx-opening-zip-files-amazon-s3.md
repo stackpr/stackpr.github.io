@@ -2,7 +2,7 @@
 title: Office Documents (.docx) opening as zip files from Amazon S3
 layout: post
 category: blog
-tech:
+tags:
 - Linux
 - Amazon S3
 permalink: /blog/2011/01/24/office-documents-docx-opening-zip-files-amazon-s3

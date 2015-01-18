@@ -2,7 +2,7 @@
 title: BendixKing50.com
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - CSS
 - Drupal

@@ -2,7 +2,7 @@
 title: Icewarp Outlook Sync Installation Issues
 layout: post
 category: blog
-tech:
+tags:
 - Icewarp
 - Microsoft Office
 - Microsoft Outlook

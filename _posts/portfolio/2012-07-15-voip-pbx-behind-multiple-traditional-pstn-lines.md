@@ -2,7 +2,7 @@
 title: VoIP PBX Behind Multiple Traditional PSTN Lines
 layout: post
 category: portfolio
-tech:
+tags:
 - VoIP
 - SIP
 - SPA8800

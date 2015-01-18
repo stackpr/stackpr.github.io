@@ -2,7 +2,7 @@
 title: SumSearches
 layout: post
 category: portfolio
-tech:
+tags:
 - Linux
 - Perl
 position:

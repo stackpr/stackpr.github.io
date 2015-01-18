@@ -2,7 +2,7 @@
 title: Witti Visualization
 layout: post
 category: project
-tech:
+tags:
 - JS
 - Google Visualization API
 permalink: /project/witti-visualization

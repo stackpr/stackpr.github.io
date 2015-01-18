@@ -2,7 +2,7 @@
 title: Math Day Logo
 layout: post
 category: portfolio
-tech:
+tags:
 - Logo
 position:
 - End-to-end

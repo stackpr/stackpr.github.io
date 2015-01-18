@@ -2,7 +2,7 @@
 title: API for Data Warehouse
 layout: post
 category: blog
-tech:
+tags:
 - PHP
 - Amazon S3
 permalink: /blog/2012/09/05/api-data-warehouse

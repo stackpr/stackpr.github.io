@@ -2,7 +2,7 @@
 title: Shindaiwa
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - Collaborate
 - Post CMS

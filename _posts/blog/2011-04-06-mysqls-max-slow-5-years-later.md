@@ -2,7 +2,7 @@
 title: MySQL's MAX() is slow 5 years later
 layout: post
 category: blog
-tech:
+tags:
 - MySQL
 permalink: /blog/2011/04/06/mysqls-max-slow-5-years-later
 

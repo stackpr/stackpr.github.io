@@ -2,7 +2,7 @@
 title: Wiping a hard drive
 layout: post
 category: blog
-tech:
+tags:
 - Linux
 permalink: /blog/2009/09/19/wiping-hard-drive
 

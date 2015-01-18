@@ -2,7 +2,7 @@
 title: Loading an iTunes-optimized podcast in MediaMonkey
 layout: post
 category: blog
-tech:
+tags:
 - RSS
 - ITPC
 - MediaMonkey

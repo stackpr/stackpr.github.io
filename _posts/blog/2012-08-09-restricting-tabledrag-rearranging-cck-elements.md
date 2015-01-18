@@ -2,7 +2,7 @@
 title: Restricting TableDrag for Rearranging CCK Elements
 layout: post
 category: blog
-tech:
+tags:
 - Drupal
 - JS
 permalink: /blog/2012/08/09/restricting-tabledrag-rearranging-cck-elements

@@ -2,7 +2,7 @@
 title: CKEditor and Syntax Highlighter Can Play Nice
 layout: post
 category: blog
-tech:
+tags:
 - Drupal
 - JS
 - CKEditor

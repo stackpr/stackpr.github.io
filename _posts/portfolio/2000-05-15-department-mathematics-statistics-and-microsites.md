@@ -2,7 +2,7 @@
 title: Department of Mathematics & Statistics - and microsites
 layout: post
 category: portfolio
-tech:
+tags:
 - Linux
 - Perl
 position:

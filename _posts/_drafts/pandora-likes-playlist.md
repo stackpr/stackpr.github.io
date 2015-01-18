@@ -2,7 +2,7 @@
 title: Pandora Likes to Playlist
 layout: post
 category: blog
-tech:
+tags:
 - PHP
 permalink: /blog/2014/02/24/pandora-likes-playlist
 published: false

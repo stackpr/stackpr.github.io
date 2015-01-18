@@ -2,7 +2,7 @@
 title: Transferring Github project to an organization
 layout: post
 category: blog
-tech:
+tags:
 - Github
 permalink: /blog/2014/03/05/transferring-github-project-organization
 published: false

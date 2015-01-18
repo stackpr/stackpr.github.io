@@ -2,7 +2,7 @@
 title: Drupal Stack Market Share
 layout: post
 category: blog
-tech:
+tags:
 - Linux
 - Apache
 - PHP

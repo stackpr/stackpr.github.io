@@ -2,7 +2,7 @@
 title: RDS Standard Storage Disk Speeds
 layout: post
 category: blog
-tech:
+tags:
 - Amazon RDS
 permalink: /blog/2013/02/20/rds-standard-storage-disk-speeds
 images:

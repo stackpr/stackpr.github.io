@@ -2,7 +2,7 @@
 title: Optimizing the LAMP Stack - Part III
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - Drupal
 - MySQL

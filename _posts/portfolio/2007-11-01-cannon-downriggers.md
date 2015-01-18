@@ -2,7 +2,7 @@
 title: Cannon Downriggers
 layout: post
 category: portfolio
-tech:
+tags:
 - ASP
 - VBScript
 team:

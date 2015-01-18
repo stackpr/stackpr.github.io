@@ -2,7 +2,7 @@
 title: A Great Wedding Playlist
 layout: post
 category: portfolio
-tech:
+tags:
 - Music
 permalink: /portfolio/great-wedding-playlist
 

@@ -2,7 +2,7 @@
 title: Transition Postini to Google Apps for Business
 layout: post
 category: blog
-tech:
+tags:
 - Email
 - Google Apps
 - Icewarp

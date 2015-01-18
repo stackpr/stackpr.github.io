@@ -2,7 +2,7 @@
 title: Entity Cleanup Macro for Word
 layout: post
 category: blog
-tech:
+tags:
 - VBA
 - Microsoft Office
 - Microsoft Word

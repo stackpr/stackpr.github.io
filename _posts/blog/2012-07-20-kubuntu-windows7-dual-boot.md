@@ -2,7 +2,7 @@
 title: Kubuntu-Windows7 Dual-Boot
 layout: post
 category: blog
-tech:
+tags:
 - Windows 7
 - Ubuntu
 - Linux

@@ -2,7 +2,7 @@
 title: Firefox Broke My Selects (and the JS that fixed them)
 layout: post
 category: blog
-tech:
+tags:
 - JS
 - jQuery
 - jQuery UI

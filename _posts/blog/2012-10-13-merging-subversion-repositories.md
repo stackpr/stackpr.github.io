@@ -2,7 +2,7 @@
 title: Merging Subversion Repositories
 layout: post
 category: blog
-tech:
+tags:
 - Linux
 - Subversion
 permalink: /blog/2012/10/13/merging-subversion-repositories

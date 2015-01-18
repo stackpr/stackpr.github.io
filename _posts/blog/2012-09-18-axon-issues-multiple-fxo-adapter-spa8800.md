@@ -2,7 +2,7 @@
 title: Axon Issues with Multiple-FXO Adapter (SPA8800)
 layout: post
 category: blog
-tech:
+tags:
 - VoIP
 - SPA8800
 - Axon Virtual PBX

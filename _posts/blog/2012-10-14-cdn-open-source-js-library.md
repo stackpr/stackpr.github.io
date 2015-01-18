@@ -2,7 +2,7 @@
 title: CDN for Open Source JS Library
 layout: post
 category: blog
-tech:
+tags:
 - JS
 - CDN
 - CloudFront

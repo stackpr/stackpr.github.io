@@ -2,7 +2,7 @@
 title: Small Joys in Document Conversion
 layout: post
 category: blog
-tech:
+tags:
 - Linux
 - Microsoft Office
 permalink: /blog/2010/09/06/small-joys-document-conversion

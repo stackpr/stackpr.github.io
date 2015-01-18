@@ -2,7 +2,7 @@
 title: Remove Drupal XML Sitemap Fieldset from a Node Form
 layout: post
 category: blog
-tech:
+tags:
 - Drupal
 permalink: /blog/2012/08/07/remove-drupal-xml-sitemap-fieldset-node-form
 

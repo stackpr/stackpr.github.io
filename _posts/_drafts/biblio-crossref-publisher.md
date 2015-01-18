@@ -2,7 +2,7 @@
 title: Biblio CrossRef Publisher
 layout: post
 category: portfolio
-tech:
+tags:
 - Drupal
 - PHP
 - MySQL

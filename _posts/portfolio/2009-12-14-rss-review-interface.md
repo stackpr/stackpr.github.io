@@ -2,7 +2,7 @@
 title: RSS Review Interface
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - Drupal
 position:

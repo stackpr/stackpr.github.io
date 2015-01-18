@@ -2,7 +2,7 @@
 title: Dynamic Fundraising Thermometer from SVG
 layout: post
 category: blog
-tech:
+tags:
 - SVG
 - ImageMagick
 - PHP

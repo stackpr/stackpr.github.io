@@ -2,7 +2,7 @@
 title: Understanding Dial Plans
 layout: post
 category: blog
-tech:
+tags:
 - PBX
 - VoIP
 permalink: /blog/2012/07/17/understanding-dial-plans

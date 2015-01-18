@@ -2,7 +2,7 @@
 title: UppercaseDevelopment.com
 layout: post
 category: portfolio
-tech:
+tags:
 - CSS
 - Dreamweaver
 team:

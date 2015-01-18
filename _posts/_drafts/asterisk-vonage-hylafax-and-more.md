@@ -2,7 +2,7 @@
 title: Asterisk, Vonage, Hylafax and More
 layout: post
 category: portfolio
-tech:
+tags:
 - VoIP
 - Linux
 team:

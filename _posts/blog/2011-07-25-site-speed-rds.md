@@ -2,7 +2,7 @@
 title: Site speed with RDS
 layout: post
 category: blog
-tech:
+tags:
 - Amazon RDS
 permalink: /blog/2011/07/25/site-speed-rds
 

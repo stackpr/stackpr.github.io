@@ -2,7 +2,7 @@
 title: The GoRAD Toolkit
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - GoRad
 position:

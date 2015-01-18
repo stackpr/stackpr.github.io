@@ -2,7 +2,7 @@
 title: '`top` command cheat sheet'
 layout: post
 category: blog
-tech:
+tags:
 - Linux
 - Amazon EC2
 permalink: /blog/2009/07/10/top-command-cheat-sheet

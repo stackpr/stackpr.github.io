@@ -2,7 +2,7 @@
 title: TNEF Clean Patch
 layout: post
 category: portfolio
-tech:
+tags:
 - Perl
 permalink: /portfolio/tnef-clean-patch
 references:

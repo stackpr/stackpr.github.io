@@ -2,7 +2,7 @@
 title: Compressing an Exchange Database
 layout: post
 category: blog
-tech:
+tags:
 - Microsoft Exchange
 - Windows Server 2003
 permalink: /blog/2009/08/02/compressing-exchange-database

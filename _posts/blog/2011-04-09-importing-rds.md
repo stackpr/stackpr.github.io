@@ -2,7 +2,7 @@
 title: Importing into RDS
 layout: post
 category: blog
-tech:
+tags:
 - Amazon RDS
 permalink: /blog/2011/04/09/importing-rds
 

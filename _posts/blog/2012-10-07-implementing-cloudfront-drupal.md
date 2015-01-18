@@ -2,7 +2,7 @@
 title: Implementing CloudFront on Drupal
 layout: post
 category: blog
-tech:
+tags:
 - Drupal
 - CloudFront
 - CDN

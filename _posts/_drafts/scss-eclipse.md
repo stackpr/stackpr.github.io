@@ -2,7 +2,7 @@
 title: SCSS in Eclipse
 layout: post
 category: blog
-tech:
+tags:
 - CSS
 - SASS
 permalink: /blog/2013/11/19/scss-eclipse

@@ -2,7 +2,7 @@
 title: Review of Overseas Image Masking
 layout: post
 category: blog
-tech:
+tags:
 - PNG
 - Vector
 permalink: /blog/2012/08/06/review-overseas-image-masking

@@ -2,7 +2,7 @@
 title: Improving Workspace Sync
 layout: post
 category: blog
-tech:
+tags:
 - Python
 - PHP
 - Windows

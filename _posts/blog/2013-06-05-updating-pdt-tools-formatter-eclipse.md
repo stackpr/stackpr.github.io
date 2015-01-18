@@ -2,7 +2,7 @@
 title: Updating PDT Tools Formatter for Eclipse
 layout: post
 category: blog
-tech:
+tags:
 - PHP
 - Eclipse
 permalink: /blog/2013/06/05/updating-pdt-tools-formatter-eclipse

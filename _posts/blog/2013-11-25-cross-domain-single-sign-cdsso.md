@@ -2,7 +2,7 @@
 title: Cross-Domain Single Sign-On (CDSSO)
 layout: post
 category: blog
-tech:
+tags:
 - PHP
 - Drupal
 - Cookies

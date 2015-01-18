@@ -2,7 +2,7 @@
 title: 'Google Visualizations: "b.G is not a function"'
 layout: post
 category: blog
-tech:
+tags:
 - JS
 - Google Visualization API
 permalink: /blog/2013/12/10/google-visualizations-bg-not-function

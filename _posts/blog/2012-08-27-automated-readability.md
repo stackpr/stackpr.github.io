@@ -2,7 +2,7 @@
 title: Automated Readability
 layout: post
 category: blog
-tech:
+tags:
 - Readability
 - Drupal
 - PHP

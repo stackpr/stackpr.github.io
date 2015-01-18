@@ -2,7 +2,7 @@
 title: Visualization Test Page
 layout: post
 category: blog
-tech:
+tags:
 - JS
 permalink: /blog/2013/12/05/visualization-test-page
 js:

@@ -2,7 +2,7 @@
 title: Minn Kota Motors
 layout: post
 category: portfolio
-tech:
+tags:
 - ASP
 team:
 - Quiller

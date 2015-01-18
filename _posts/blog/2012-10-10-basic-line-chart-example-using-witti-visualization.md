@@ -4,7 +4,7 @@ layout: post
 category: blog
 project:
 - /project/witti-visualization
-tech:
+tags:
 - JS
 - Google Visualization API
 permalink: /blog/2012/10/10/basic-line-chart-example-using-witti-visualization

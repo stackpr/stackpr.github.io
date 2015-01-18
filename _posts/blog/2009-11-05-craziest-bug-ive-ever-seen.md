@@ -2,7 +2,7 @@
 title: The craziest bug I've ever seen
 layout: post
 category: blog
-tech:
+tags:
 - PHP
 - Linux
 - MySQL

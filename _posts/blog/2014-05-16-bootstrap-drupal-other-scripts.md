@@ -2,7 +2,7 @@
 title: Bootstrap Drupal from other scripts
 layout: post
 category: blog
-tech:
+tags:
 - Drupal 6
 - PHP
 permalink: /blog/2014/05/16/bootstrap-drupal-other-scripts

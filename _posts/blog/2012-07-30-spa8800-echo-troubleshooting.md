@@ -2,7 +2,7 @@
 title: SPA8800 Echo Troubleshooting
 layout: post
 category: blog
-tech:
+tags:
 - VoIP
 - SPA8800
 permalink: /blog/2012/07/30/spa8800-echo-troubleshooting

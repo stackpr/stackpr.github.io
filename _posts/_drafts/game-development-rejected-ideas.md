@@ -2,7 +2,7 @@
 title: Game Development - The Rejected Ideas
 layout: post
 category: portfolio
-tech:
+tags:
 - Games
 permalink: /portfolio/game-development-rejected-ideas
 published: false

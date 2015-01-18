@@ -2,7 +2,7 @@
 title: YAML Editor for Eclipse
 layout: post
 category: blog
-tech:
+tags:
 - Eclipse
 permalink: /blog/2014/03/03/yaml-editor-eclipse
 

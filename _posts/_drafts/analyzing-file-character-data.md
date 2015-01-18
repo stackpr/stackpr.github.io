@@ -2,7 +2,7 @@
 title: Analyzing file character data
 layout: post
 category: blog
-tech:
+tags:
 - Linux
 permalink: /blog/2014/01/14/analyzing-file-character-data
 published: false

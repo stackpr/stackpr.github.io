@@ -4,7 +4,7 @@ layout: post
 category: blog
 project:
 - /project/witti-kiosk
-tech:
+tags:
 - Linux
 - Firefox
 - Chrome

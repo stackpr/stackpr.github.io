@@ -2,7 +2,7 @@
 title: Dealer Locator
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - Drupal
 - MySQL

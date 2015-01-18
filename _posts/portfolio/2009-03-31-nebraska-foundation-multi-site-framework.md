@@ -2,7 +2,7 @@
 title: Nebraska Foundation Multi-Site Framework
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - Linux
 - CSS

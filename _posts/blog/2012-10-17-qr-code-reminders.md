@@ -2,7 +2,7 @@
 title: QR Code Reminders
 layout: post
 category: blog
-tech:
+tags:
 - QR Codes
 permalink: /blog/2012/10/17/qr-code-reminders
 images:

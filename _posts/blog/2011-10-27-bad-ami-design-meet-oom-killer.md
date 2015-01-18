@@ -2,7 +2,7 @@
 title: Bad AMI Design - Meet oom-killer
 layout: post
 category: blog
-tech:
+tags:
 - Linux
 - Amazon EC2
 - Apache

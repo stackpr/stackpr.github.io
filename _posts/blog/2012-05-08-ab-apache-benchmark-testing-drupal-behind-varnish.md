@@ -2,7 +2,7 @@
 title: AB (Apache Benchmark) Testing Drupal Behind Varnish
 layout: post
 category: blog
-tech:
+tags:
 - Linux
 - Apache
 permalink: /blog/2012/05/08/ab-apache-benchmark-testing-drupal-behind-varnish

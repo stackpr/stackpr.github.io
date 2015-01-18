@@ -2,7 +2,7 @@
 title: Biblio Rapid Creation Using Author+Title
 layout: post
 category: blog
-tech:
+tags:
 - Biblio
 - Drupal
 - CrossRef

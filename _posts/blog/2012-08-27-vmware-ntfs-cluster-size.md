@@ -2,7 +2,7 @@
 title: VMWare NTFS Cluster Size
 layout: post
 category: blog
-tech:
+tags:
 - VMware
 - NTFS
 permalink: /blog/2012/08/27/vmware-ntfs-cluster-size

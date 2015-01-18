@@ -2,7 +2,7 @@
 title: Uppercase Development Logo and Brand
 layout: post
 category: portfolio
-tech:
+tags:
 - Logo
 - Letterhead
 position:

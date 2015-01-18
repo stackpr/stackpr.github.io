@@ -2,7 +2,7 @@
 title: Microsoft Word Styles and Templates
 layout: post
 category: blog
-tech:
+tags:
 - Microsoft Office
 - Microsoft Word
 permalink: /blog/2009/09/23/microsoft-word-styles-and-templates

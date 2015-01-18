@@ -2,7 +2,7 @@
 title: Omaha Primary Eye Care
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - CSS
 - Dreamweaver

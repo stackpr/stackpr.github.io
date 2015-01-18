@@ -2,7 +2,7 @@
 title: Brite Ideas
 layout: post
 category: portfolio
-tech:
+tags:
 - ActionScript
 team:
 - SRA

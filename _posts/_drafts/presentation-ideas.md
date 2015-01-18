@@ -2,7 +2,7 @@
 title: Presentation Ideas
 layout: post
 category: blog
-tech:
+tags:
 - PHP
 permalink: /blog/2013/12/20/presentation-ideas
 published: false

@@ -2,7 +2,7 @@
 title: WRT54G Problem (not) Resolved
 layout: post
 category: blog
-tech:
+tags:
 - Networking
 - Linux
 permalink: /blog/2012/06/14/wrt54g-problem-not-resolved

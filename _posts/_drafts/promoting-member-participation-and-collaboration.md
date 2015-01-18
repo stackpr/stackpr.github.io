@@ -2,7 +2,7 @@
 title: Promoting Member Participation and Collaboration
 layout: post
 category: portfolio
-tech:
+tags:
 - Drupal
 - DirectMail
 permalink: /portfolio/promoting-member-participation-and-collaboration

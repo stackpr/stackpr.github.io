@@ -2,7 +2,7 @@
 title: Data Warehouse
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - Drupal
 - Google Visualization API

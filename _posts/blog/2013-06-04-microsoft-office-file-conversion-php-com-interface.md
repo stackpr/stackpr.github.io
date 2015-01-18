@@ -2,7 +2,7 @@
 title: Microsoft Office File Conversion via PHP COM Interface
 layout: post
 category: blog
-tech:
+tags:
 - Microsoft Office
 - Microsoft Word
 - Microsoft Excel

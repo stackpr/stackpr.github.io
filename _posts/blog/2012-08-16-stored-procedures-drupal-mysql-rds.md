@@ -2,7 +2,7 @@
 title: Stored Procedures in Drupal on MySQL RDS
 layout: post
 category: blog
-tech:
+tags:
 - Drupal
 - MySQL
 - Amazon EC2

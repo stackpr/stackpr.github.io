@@ -2,7 +2,7 @@
 title: Table Border Challenges Converting Word to PDF
 layout: post
 category: blog
-tech:
+tags:
 - Microsoft Word
 - PDF
 permalink: /blog/2013/03/21/table-border-challenges-converting-word-pdf

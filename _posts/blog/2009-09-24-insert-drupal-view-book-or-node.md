@@ -2,7 +2,7 @@
 title: Insert a Drupal View into a Book or a Node
 layout: post
 category: blog
-tech:
+tags:
 - Drupal
 permalink: /blog/2009/09/24/insert-drupal-view-book-or-node
 

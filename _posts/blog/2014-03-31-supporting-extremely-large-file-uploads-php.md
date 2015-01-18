@@ -2,7 +2,7 @@
 title: Supporting extremely large file uploads with PHP
 layout: post
 category: blog
-tech:
+tags:
 - Amazon IAM
 - Amazon S3
 - Plupload

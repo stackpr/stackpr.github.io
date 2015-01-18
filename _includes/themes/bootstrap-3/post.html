@@ -33,12 +33,12 @@
 	</div>
   {% endunless %}  
 
-  {% unless page.tech == null | page.tech == empty %}
+  {% unless page.tags == null | page.tags == empty %}
   	<div class="row">
 	  	<div class="tag_vocabulary col-xs-2">Technologies:</div>
 	    <ul class="tag_box inline col-xs-10">
 	      <li><i class="glyphicon-tags"></i></li>
-	      {% assign tags_list = page.tech %}
+	      {% assign tags_list = page.tags %}
 	      {% assign site.JB.tags_path = "/technology" %}
 	      {% include JB/tags_list %}
 	    </ul>

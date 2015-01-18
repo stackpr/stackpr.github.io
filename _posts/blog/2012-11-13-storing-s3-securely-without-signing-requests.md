@@ -2,7 +2,7 @@
 title: Storing on S3 securely without signing requests
 layout: post
 category: blog
-tech:
+tags:
 - Amazon S3
 permalink: /blog/2012/11/13/storing-s3-securely-without-signing-requests
 

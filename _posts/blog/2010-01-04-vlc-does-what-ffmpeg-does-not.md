@@ -2,7 +2,7 @@
 title: VLC does what ffmpeg does not
 layout: post
 category: blog
-tech:
+tags:
 - Linux
 - Flash
 - VLC

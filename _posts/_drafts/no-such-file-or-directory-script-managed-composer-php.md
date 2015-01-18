@@ -2,7 +2,7 @@
 title: '"No such file or directory" in script managed with composer (PHP)'
 layout: post
 category: blog
-tech:
+tags:
 - Composer
 - Github
 permalink: /blog/2014/11/06/no-such-file-or-directory-script-managed-composer-php

@@ -2,7 +2,7 @@
 title: APC Console
 layout: post
 category: project
-tech:
+tags:
 - PHP
 - APC
 permalink: /project/apc-console

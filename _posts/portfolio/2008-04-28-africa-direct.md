@@ -2,7 +2,7 @@
 title: Africa Direct
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - Zend Framework
 team:

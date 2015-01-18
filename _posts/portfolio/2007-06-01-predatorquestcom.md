@@ -2,7 +2,7 @@
 title: PredatorQuest.com
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - Zen Cart
 team:

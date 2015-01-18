@@ -2,7 +2,7 @@
 title: Dynamic Generation of Photo Map with ImageMagick
 layout: post
 category: portfolio
-tech:
+tags:
 - ImageMagick
 - Linux
 - PHP

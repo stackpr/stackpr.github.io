@@ -2,7 +2,7 @@
 title: Product Selector
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - CSS
 - JS

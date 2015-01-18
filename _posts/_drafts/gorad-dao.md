@@ -2,7 +2,7 @@
 title: GoRAD DAO
 layout: post
 category: blog
-tech:
+tags:
 - GoRad
 - PHP
 - XML

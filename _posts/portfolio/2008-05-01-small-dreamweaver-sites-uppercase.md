@@ -2,7 +2,7 @@
 title: Small Dreamweaver Sites by Uppercase
 layout: post
 category: portfolio
-tech:
+tags:
 - CSS
 - Dreamweaver
 - Flash

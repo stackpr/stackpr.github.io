@@ -2,7 +2,7 @@
 title: Lincoln Marathon Class - App?
 layout: post
 category: blog
-tech:
+tags:
 - Running
 permalink: /blog/2014/01/14/lincoln-marathon-class-app
 published: false

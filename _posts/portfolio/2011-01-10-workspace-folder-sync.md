@@ -2,7 +2,7 @@
 title: Workspace Folder Sync
 layout: post
 category: portfolio
-tech:
+tags:
 - PHP
 - Linux
 - Drupal

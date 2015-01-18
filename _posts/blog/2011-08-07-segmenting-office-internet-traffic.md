@@ -2,7 +2,7 @@
 title: Segmenting the Office Internet Traffic
 layout: post
 category: blog
-tech:
+tags:
 - Windows Server 2008
 - Sysadmin
 - Networking

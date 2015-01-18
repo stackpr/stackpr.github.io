@@ -2,7 +2,7 @@
 title: Flotilla
 layout: post
 category: portfolio
-tech:
+tags:
 - Games
 permalink: /portfolio/flotilla
 images:
