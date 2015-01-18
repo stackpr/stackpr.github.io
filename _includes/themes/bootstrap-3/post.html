@@ -78,6 +78,9 @@
 
 {% unless page.js == null | page.js == empty %}
 	{% for j in page.js %}
+		{% if j == "jquery" %}
+			{% assign j = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" %}
+		{% endif %}
 		<script src="{{ j }}"></script>
 	{% endfor %}
 {% endunless %}

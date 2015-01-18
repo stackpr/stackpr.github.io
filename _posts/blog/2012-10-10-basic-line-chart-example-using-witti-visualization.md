@@ -7,6 +7,7 @@ tech:
 - Google Visualization API
 permalink: /blog/2012/10/10/basic-line-chart-example-using-witti-visualization
 js:
+- jquery
 - http://l.wcdn.ws/lib/visualization/visualization.min.js
 
 ---
