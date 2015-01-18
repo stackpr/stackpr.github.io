@@ -25,6 +25,9 @@ images:
 - minnkotamotors home.png
 - minnkotamotors pros.png
 - minnkota chargers.png
+references:
+- title: Current Minn Kota Site
+  link: http://www.minnkotamotors.com
 
 ---
 {% include JB/setup %}
@@ -41,5 +44,5 @@ images:
 <h3>
 	Web Interface Optimization</h3>
 <p>Themes of this complexity create a severe delay for users. To address this issue, we utilized UIX to aggregate, compact and compress the JS/CSS files. It also manages sprites. More details on this are available elsewhere.</p>
-</div></div></div><div class="field field-name-field-reference field-type-link-field field-label-above"><div class="field-label">References:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="http://www.minnkotamotors.com" rel="nofollow">Current Minn Kota Site</a></div></div></div>  </div>
+</div></div></div>  </div>
 </div>

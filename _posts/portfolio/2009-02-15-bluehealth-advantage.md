@@ -18,6 +18,9 @@ images:
 - bha employer.png
 - bha experts.png
 - bha home.png
+references:
+- title: Blue Health Advantage
+  link: http://bluehealthadvantagene.com/
 
 ---
 {% include JB/setup %}
@@ -44,5 +47,5 @@ images:
 	 </div>
 <div>
 	Check it out!</div>
-</div></div></div><div class="field field-name-field-reference field-type-link-field field-label-above"><div class="field-label">References:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="http://bluehealthadvantagene.com/" rel="nofollow">Blue Health Advantage</a></div></div></div>  </div>
+</div></div></div>  </div>
 </div>

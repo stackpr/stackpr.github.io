@@ -68,6 +68,18 @@
 	    </ul>
 	</div>
   {% endunless %}  
+
+  {% unless page.references == null | page.references == empty %}
+  	<div class="row">
+	  	<div class="tag_vocabulary col-xs-2">References:</div>
+	    <ul class="tag_box inline col-xs-10">
+	      <li><i class="glyphicon-tags"></i></li>
+	      {% for r in page.references %}
+	      	<li><a href="{{ r[link] }}">{{ r[title] }}</a></li>
+	      {% endfor %}
+	    </ul>
+	</div>
+  {% endunless %}  
   
     <hr>
     <ul class="pagination">

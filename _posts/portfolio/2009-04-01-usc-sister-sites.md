@@ -23,6 +23,13 @@ images:
 - usc-uh-home.jpg
 - usc-uh-conditions.jpg
 - usc-uh-content.jpg
+references:
+- title: Norris Cancer Hospital
+  link: http://www.uscnorriscancerhospital.org/
+- title: University Hospital
+  link: http://www.uscuniversityhospital.org/
+- title: Doctors of USC Project
+  link: http://witti.ws/portfolio/doctors-usc
 
 ---
 {% include JB/setup %}
@@ -32,5 +39,5 @@ images:
 <!--break-->
 <p>Some of the notable features from the new projects were the addition of groups, social bookmarking and an event calendar. All three features were in the My Health login area. Otherwise, the sites even look similar. The addition of an expanded menu is one of the distinguishing features. Other features are common across the sites: synced condition information, My Health, search box with AJAX results, Find-a-Doctor (results filter differently here), and other content.</p>
 <p>The sites were slightly complicated by the fact that a different vendor was working on another sister site in the same timeframe. We had to work to merge code and style changes with their developers. It was not ideal, but we were given priority when there were conflicts due to our rigid delivery deadline. I lost contact with them before they rolled their site live, so I cannot tell the end of the story...</p>
-<p>Note that the screenshots were taken in the fall, several months after Uppercase Development stopped working on the project. Although specific content and imagery has been updated, the general theme and site functionality appears to be what we built. For more details on the functionality, look at the <a href="http://witti.ws/portfolio/doctors-usc">Doctors of USC</a> project.</p></div></div></div><div class="field field-name-field-reference field-type-link-field field-label-above"><div class="field-label">References:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="http://www.uscnorriscancerhospital.org/" rel="nofollow">Norris Cancer Hospital</a></div><div class="field-item odd"><a href="http://www.uscuniversityhospital.org/" rel="nofollow">University Hospital</a></div><div class="field-item even"><a href="http://witti.ws/portfolio/doctors-usc" rel="nofollow">Doctors of USC Project</a></div></div></div>  </div>
+<p>Note that the screenshots were taken in the fall, several months after Uppercase Development stopped working on the project. Although specific content and imagery has been updated, the general theme and site functionality appears to be what we built. For more details on the functionality, look at the <a href="http://witti.ws/portfolio/doctors-usc">Doctors of USC</a> project.</p></div></div></div>  </div>
 </div>

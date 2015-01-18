@@ -20,6 +20,9 @@ permalink: /portfolio/design-your-own-weatherby
 images:
 - wby_dyow.png
 - wby_dyow_results.png
+references:
+- title: Design Your Own Weatherby
+  link: http://weatherby.com/customshop/dyow/rifle
 
 ---
 {% include JB/setup %}
@@ -29,5 +32,5 @@ images:
 <p><strong>Slang</strong> is a standardized XML format that resembles RSS syntax, has a structure similar to plist, and embraces the node concept of Drupal (or content block concept of Ektron). There is a generic &lt;item&gt; tag that contains standard RSS elements, a &lt;data&gt; element that can contain anything, a <em>type</em> attribute that specifies the type of content, and it can contain other &lt;item&gt; elements. You could think of it as recursive RSS. The generic XML format allows for more rapid prototyping, and it ultimately made this project possible.</p>
 <p><strong>Brick</strong> is an application framework that runs on a few database tables. This particular case required importing a spreadsheet into the database. Logic was written in structured language that could be read as standard English. The logic selected tabs to show, questions to show on tabs, options to show on questions, and ultimately results based on the feedback. Each request, the state of the wizard was passed through Brick, which would return a Slang XML file that would be processed by the application's XSLT documents.</p>
 <p>These two pieces fit well within our system. Once they were ready, the remainder of this project was 95% Excel and XSLT work. The application challenge was effectively addressed and removed as an obstacle.</p>
-<p>The system is glued together with <strong>AJAX</strong> that automatically updates the results portion quickly without complete page reloads.</p></div></div></div><div class="field field-name-field-reference field-type-link-field field-label-above"><div class="field-label">References:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="http://weatherby.com/customshop/dyow/rifle" rel="nofollow">Design Your Own Weatherby</a></div></div></div>  </div>
+<p>The system is glued together with <strong>AJAX</strong> that automatically updates the results portion quickly without complete page reloads.</p></div></div></div>  </div>
 </div>

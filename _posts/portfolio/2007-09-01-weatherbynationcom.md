@@ -28,6 +28,9 @@ images:
 - wn_trophy_rooms.png
 - wn_profile.png
 - wn_spike_camp_short.png
+references:
+- title: Weatherby Nation
+  link: http://weatherbynation.com
 
 ---
 {% include JB/setup %}
@@ -66,5 +69,5 @@ images:
 		Where to Buy: dealer locator based on zip codes with sort priority given to preferred dealers</li>
 	<li>
 		AJAX notification of private messages: this required file-caching optimizations for the every-15-second requests not to slow the server</li>
-</ol></div></div></div><div class="field field-name-field-reference field-type-link-field field-label-above"><div class="field-label">References:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="http://weatherbynation.com" rel="nofollow">Weatherby Nation</a></div></div></div>  </div>
+</ol></div></div></div>  </div>
 </div>

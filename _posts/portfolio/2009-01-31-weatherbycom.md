@@ -29,6 +29,9 @@ images:
 - wby_press.png
 - wby_gun.png
 - wby_cartridges.png
+references:
+- title: Weatherby
+  link: http://weatherby.com
 
 ---
 {% include JB/setup %}
@@ -44,5 +47,5 @@ images:
 	<li>
 		Product Landing: Depending on product type, there are several different types of navigation. Rifles, clearance, cartridges and apparel represent four distinct types of products</li>
 </ol><p>This was a major project, and the largest systems are separated into separate portfolio pages. I was involved in all system design, and notable portions of the site were delegated entirely to various staff members at Uppercase Development.</p>
-</div></div></div><div class="field field-name-field-reference field-type-link-field field-label-above"><div class="field-label">References:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="http://weatherby.com" rel="nofollow">Weatherby</a></div></div></div>  </div>
+</div></div></div>  </div>
 </div>

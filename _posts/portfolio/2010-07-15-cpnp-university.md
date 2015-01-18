@@ -15,6 +15,9 @@ position:
 permalink: /portfolio/cpnp-university
 images:
 - univ.png
+references:
+- title: CPNP University (current live version)
+  link: http://cpnp.org/university
 
 ---
 {% include JB/setup %}
@@ -24,5 +27,5 @@ images:
 <p><!--break--></p>
 <p>Ultimately, the metric for CPNP U is the number of sessions that people complete, regardless of the income. It is a method of spreading knowledge.</p>
 <p>It only took about a year for the word to get out about CPNP U. After that point, we have seen consistent (and growing) utilization of the online sessions. We will continue to experiment with presentation and promotion, but the online sessions are here to stay.</p>
-</div></div></div><div class="field field-name-field-reference field-type-link-field field-label-above"><div class="field-label">References:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="http://cpnp.org/university" rel="nofollow">CPNP University (current live version)</a></div></div></div>  </div>
+</div></div></div>  </div>
 </div>

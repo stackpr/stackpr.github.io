@@ -18,6 +18,11 @@ images:
 - fireshot_capture_103_-_premium_grade_custom_vinyl_banners_for_business_-_62_off_promotion__-_highperformancebanners_com.png
 - fireshot_capture_104_-_hundreds_of_workplace_safety_banners__save_time__money_-_buy_online_-_banners4safety_com.png
 - fireshot_capture_105_-_safetybanners_org_-_banners4safety_com_safety_view_php_imagecode1071.png
+references:
+- title: Safety Banners
+  link: http://safetybanners.org
+- title: Banners 4 Stores
+  link: http://www.banners4stores.com/
 
 ---
 {% include JB/setup %}
@@ -30,5 +35,5 @@ images:
 <p><strong>Front-End Interface</strong>. The front-end interface involved several pieces, but it was much more straightforward. Using the spreadsheet as a data source, it created user-friendly browsing interfaces to select the appropriate products. The products would be passed to the Yahoo! cart, which handled the order through fulfillment.</p>
 <p>The sites were successful, and the non-traditional approach allowed New Tech Graphics to experiment with many different (and complex) pricing models. They leveraged this development across several sites. This is a great example of making the technology fit the client.</p>
 <p>NTG stayed with Uppercase Development until we closed our doors in the summer of 2009.</p>
-</div></div></div><div class="field field-name-field-reference field-type-link-field field-label-above"><div class="field-label">References:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="http://safetybanners.org" rel="nofollow">Safety Banners</a></div><div class="field-item odd"><a href="http://www.banners4stores.com/" rel="nofollow">Banners 4 Stores</a></div></div></div>  </div>
+</div></div></div>  </div>
 </div>

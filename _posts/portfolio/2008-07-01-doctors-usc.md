@@ -29,6 +29,9 @@ images:
 - doctors-of-usc groups.png
 - doctors-of-usc news.png
 - doctors-of-usc portal.png
+references:
+- title: Doctors of USC
+  link: http://www.doctorsofusc.com/
 
 ---
 {% include JB/setup %}
@@ -55,5 +58,5 @@ images:
 		Users can track events in a calendar in My Health</li>
 </ol><p>The site is high-quality. Several of these features rely heavily on the GoRad Media Module. That provided a consistent and stable administrative interface. Although there are few new features developed just for this site, it did require quite a bit of polishing. The bulk of the work was customizing the UI experience. Fine details like the search ajax and quick links received a lot of attention. This was a very well-run project.</p>
 <p>We worked on two sister sites in 2009, and other vendors also started to work within this system.</p>
-</div></div></div><div class="field field-name-field-reference field-type-link-field field-label-above"><div class="field-label">References:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="http://www.doctorsofusc.com/" rel="nofollow">Doctors of USC</a></div></div></div>  </div>
+</div></div></div>  </div>
 </div>

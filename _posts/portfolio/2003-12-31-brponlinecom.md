@@ -17,6 +17,9 @@ images:
 - brp-js-filter.png
 - brp-print-selection.png
 - brp-print-version.png
+references:
+- title: BRP Online (current version)
+  link: http://brponline.com
 
 ---
 {% include JB/setup %}
@@ -33,5 +36,5 @@ images:
 		Print selection (to build your own catalog)</li>
 	<li>
 		Print version</li>
-</ol></div></div></div><div class="field field-name-field-reference field-type-link-field field-label-above"><div class="field-label">References:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="http://brponline.com" rel="nofollow">BRP Online (current version)</a></div></div></div>  </div>
+</ol></div></div></div>  </div>
 </div>

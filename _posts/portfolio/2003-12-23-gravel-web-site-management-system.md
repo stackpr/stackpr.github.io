@@ -17,6 +17,9 @@ images:
 - gravel_peble.jpg
 - gravel old-new.gif
 - gravel - simplicity.png
+references:
+- title: Old GRAVEL Site
+  link: http://web.archive.org/web/20020125143522/gravel.aijalon.net/
 
 ---
 {% include JB/setup %}
@@ -48,5 +51,5 @@ images:
 		Quick Polls</li>
 </ol><p>I was replaced by two full-time developers. I did not monitor progress on the system after helping to migrate a couple systems into Collaborate. The system went with aijalon as it merged with Pickering Creative Group.</p>
 <p>This system was used in roughly 100 sites after its first four years. The lessons I learned building that system were applied to GoRad and Collaborate. It was a great experience, and it set the stage for the impressive projects that came after it.</p>
-</div></div></div><div class="field field-name-field-reference field-type-link-field field-label-above"><div class="field-label">References:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="http://web.archive.org/web/20020125143522/gravel.aijalon.net/" rel="nofollow">Old GRAVEL Site</a></div></div></div>  </div>
+</div></div></div>  </div>
 </div>

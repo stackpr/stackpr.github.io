@@ -21,6 +21,9 @@ images:
 - udi-tech.png
 - udi-hover.png
 - udi-about2.png
+references:
+- title: View on the Way Back Machine
+  link: http://web.archive.org/web/20110201112030/http://uppercasedevelopment.com/
 
 ---
 {% include JB/setup %}
@@ -30,5 +33,5 @@ images:
 <p>With minimal modifications to content and compatibility with new browsers, this web site saw the growth up the firm from 2 employees to a maximum of 9 employees.</p>
 <p>The site consisted of only one HTML file and one image file. The rest was contained in JavaScript and CSS. It was maintained in Dreamweaver. Extremely fast to load, and navigation was instantaneous since everything preloaded.</p>
 <p><em>Update (2012): Site is offline. Domain name was forfeited and later purchased by an unrelated party.</em></p>
-</div></div></div><div class="field field-name-field-reference field-type-link-field field-label-above"><div class="field-label">References:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="http://web.archive.org/web/20110201112030/http://uppercasedevelopment.com/" rel="nofollow">View on the Way Back Machine</a></div></div></div>  </div>
+</div></div></div>  </div>
 </div>
