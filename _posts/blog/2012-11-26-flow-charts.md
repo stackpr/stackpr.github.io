@@ -7,7 +7,7 @@ tech:
 - yEd
 permalink: /blog/2012/11/26/flow-charts
 images:
-- witti flowchart example.png
+- witti_flowchart_example.png
 
 ---
 {% include JB/setup %}

@@ -10,7 +10,7 @@ position:
 - Staff Liaison
 permalink: /portfolio/mental-health-clinician-open-access
 images:
-- 2012am mhc flyer 1.3.png
+- 2012am_mhc_flyer_1.3.png
 
 ---
 {% include JB/setup %}

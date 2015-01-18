@@ -13,7 +13,7 @@ position:
 - Project Manager
 permalink: /content/dealer-locator
 images:
-- weatherby - locator 1.png
+- weatherby_-_locator_1.png
 references:
 - title: Where to Buy
   link: http://weatherby.com/wheretobuy

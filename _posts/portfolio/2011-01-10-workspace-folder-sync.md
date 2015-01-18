@@ -12,7 +12,7 @@ position:
 - End-to-end
 permalink: /portfolio/workspace-folder-sync
 images:
-- workspace sync 1.png
+- workspace_sync_1.png
 
 ---
 {% include JB/setup %}

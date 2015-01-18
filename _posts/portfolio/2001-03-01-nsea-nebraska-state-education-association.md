@@ -12,8 +12,8 @@ position:
 permalink: /portfolio/nsea-nebraska-state-education-association
 images:
 - nsea_1250458480525.png
-- nsea teacher salaries - shortages_1250458615164.png
-- nsea the voice archive_1250458678258.png
+- nsea_teacher_salaries_-_shortages_1250458615164.png
+- nsea_the_voice_archive_1250458678258.png
 references:
 - title: 2001 Version of Site
   link: http://web.archive.org/web/20010401135901/http://nsea.org/

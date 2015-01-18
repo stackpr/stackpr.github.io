@@ -14,8 +14,8 @@ position:
 - Project Manager
 permalink: /portfolio/bankofyou
 images:
-- bank of you.png
-- bank of you 2.png
+- bank_of_you.png
+- bank_of_you_2.png
 references:
 - title: Bank of You
   link: http://bankofyou.ubt.com/

@@ -11,7 +11,7 @@ tech:
 - Any Video Converter
 permalink: /portfolio/workspace-tutorials-screencasts-using-hypercam
 images:
-- video tutorial.png
+- video_tutorial.png
 
 ---
 {% include JB/setup %}

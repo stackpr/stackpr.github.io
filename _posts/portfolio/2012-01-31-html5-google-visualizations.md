@@ -7,9 +7,9 @@ tech:
 - HTML5
 permalink: /portfolio/html5-google-visualizations
 images:
-- warehouse graphs 0.png
-- warehouse graphs 2.png
-- warehouse graphs 3.png
+- warehouse_graphs_0.png
+- warehouse_graphs_2.png
+- warehouse_graphs_3.png
 
 ---
 {% include JB/setup %}

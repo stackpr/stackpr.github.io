@@ -16,11 +16,11 @@ permalink: /portfolio/shindaiwa
 images:
 - shindaiwa_1.jpg
 - shindaiwa_2.jpg
-- shindaiwa - js menu.png
-- shindaiwa - pdfs.png
-- shindaiwa - product.png
-- shindaiwa - spanish blowers.png
-- shindaiwa - search.png
+- shindaiwa_-_js_menu.png
+- shindaiwa_-_pdfs.png
+- shindaiwa_-_product.png
+- shindaiwa_-_spanish_blowers.png
+- shindaiwa_-_search.png
 
 ---
 {% include JB/setup %}

@@ -13,7 +13,7 @@ position:
 - Boss
 permalink: /portfolio/audio-houston
 images:
-- audio houston.png
+- audio_houston.png
 references:
 - title: Audio Houston
   link: http://audiohouston.com

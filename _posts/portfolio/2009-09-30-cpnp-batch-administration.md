@@ -12,13 +12,13 @@ position:
 - Developer
 permalink: /portfolio/cpnp-batch-administration
 images:
-- batch admin 1.png
-- batch admin 2.png
-- batch admin 3.png
-- batch admin 4.png
-- batch admin 5.png
-- batch admin 6.png
-- batch admin 7.png
+- batch_admin_1.png
+- batch_admin_2.png
+- batch_admin_3.png
+- batch_admin_4.png
+- batch_admin_5.png
+- batch_admin_6.png
+- batch_admin_7.png
 
 ---
 {% include JB/setup %}

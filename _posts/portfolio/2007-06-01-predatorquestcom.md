@@ -13,7 +13,7 @@ position:
 - Developer
 permalink: /portfolio/predatorquestcom
 images:
-- predatorquest - album.png
+- predatorquest_-_album.png
 
 ---
 {% include JB/setup %}

@@ -11,9 +11,9 @@ position:
 - Developer
 permalink: /portfolio/cannon-downriggers
 images:
-- cannon home.png
-- cannon products.png
-- cannon product.png
+- cannon_home.png
+- cannon_products.png
+- cannon_product.png
 references:
 - title: Current Cannon Site
   link: http://www.cannondownriggers.com/

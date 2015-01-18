@@ -15,9 +15,9 @@ position:
 - Project Manager
 permalink: /portfolio/bendixking50com
 images:
-- bk50 - home.png
-- bk50 - location.png
-- bk50 - map.png
+- bk50_-_home.png
+- bk50_-_location.png
+- bk50_-_map.png
 references:
 - title: Current BK50 Site
   link: http://bendixking50.com/

@@ -17,9 +17,9 @@ position:
 - Project Manager
 permalink: /portfolio/creighton-umc
 images:
-- findyourphysician - home.png
-- findyourphysician - results.png
-- findyourphysician - map.png
+- findyourphysician_-_home.png
+- findyourphysician_-_results.png
+- findyourphysician_-_map.png
 references:
 - title: Find Your Physician
   link: http://findyourphysician.com

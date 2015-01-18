@@ -12,7 +12,7 @@ position:
 - Project Manager
 permalink: /portfolio/custom-asp-net-cache
 images:
-- minnkotamotors motor page.png
+- minnkotamotors_motor_page.png
 references:
 - title: High Aggregation Page - Motors
   link: http://www.minnkotamotors.com/products/trolling_motors/freshwater_bow_mount/fortrex.aspx

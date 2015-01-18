@@ -20,11 +20,11 @@ position:
 - Project Manager
 permalink: /portfolio/minnkotamotors-com
 images:
-- minnkotamotors nav.png
-- minnkotamotors motor page.png
-- minnkotamotors home.png
-- minnkotamotors pros.png
-- minnkota chargers.png
+- minnkotamotors_nav.png
+- minnkotamotors_motor_page.png
+- minnkotamotors_home.png
+- minnkotamotors_pros.png
+- minnkota_chargers.png
 references:
 - title: Current Minn Kota Site
   link: http://www.minnkotamotors.com

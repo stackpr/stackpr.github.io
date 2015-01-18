@@ -6,7 +6,7 @@ tech:
 - Amazon
 permalink: /blog/2013/12/20/selling-amazon-fba
 images:
-- amazon witti toys.png
+- amazon_witti_toys.png
 
 ---
 {% include JB/setup %}

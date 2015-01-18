@@ -10,8 +10,8 @@ position:
 - End-to-end
 permalink: /portfolio/data-warehouse
 images:
-- warehouse graphs 0.png
-- warehouse graphs 1.png
+- warehouse_graphs_0.png
+- warehouse_graphs_1.png
 
 ---
 {% include JB/setup %}

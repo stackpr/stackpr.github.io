@@ -16,7 +16,7 @@ images:
 - card_page_001.png
 - card_page_050.png
 - card_page_105.png
-- corralled-0.1-sample-card merge 2011-07-04_page_04.jpg
+- corralled-0.1-sample-card_merge_2011-07-04_page_04.jpg
 - corralled-kgf2012.jpg
 - corralled-v1a.jpg
 - corralled-v1b.jpg
@@ -26,7 +26,7 @@ images:
 - dice-holders.png
 - horse.jpg
 - horse.png
-- pig - large.jpg
+- pig_-_large.jpg
 - pig.jpg
 - pig.png
 published: false

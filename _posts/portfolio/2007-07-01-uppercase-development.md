@@ -16,7 +16,7 @@ position:
 permalink: /portfolio/uppercase-development
 images:
 - udi.png
-- udi 2.png
+- udi_2.png
 - udi-services.png
 - udi-tech.png
 - udi-hover.png

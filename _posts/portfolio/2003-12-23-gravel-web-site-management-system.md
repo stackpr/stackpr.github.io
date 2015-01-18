@@ -15,8 +15,8 @@ images:
 - gravel_content.jpg
 - gravel_home.jpg
 - gravel_peble.jpg
-- gravel old-new.gif
-- gravel - simplicity.png
+- gravel_old-new.gif
+- gravel_-_simplicity.png
 references:
 - title: Old GRAVEL Site
   link: http://web.archive.org/web/20020125143522/gravel.aijalon.net/

@@ -15,9 +15,9 @@ position:
 - Project Manager
 permalink: /portfolio/bluehealth-advantage
 images:
-- bha employer.png
-- bha experts.png
-- bha home.png
+- bha_employer.png
+- bha_experts.png
+- bha_home.png
 references:
 - title: Blue Health Advantage
   link: http://bluehealthadvantagene.com/

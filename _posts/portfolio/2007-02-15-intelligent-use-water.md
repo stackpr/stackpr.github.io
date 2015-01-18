@@ -14,7 +14,7 @@ position:
 - Project Manager
 permalink: /portfolio/intelligent-use-water
 images:
-- iuow - home.png
+- iuow_-_home.png
 references:
 - title: IUOW
   link: http://iuowfilm.com

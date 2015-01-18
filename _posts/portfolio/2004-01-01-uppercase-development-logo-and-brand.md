@@ -11,8 +11,8 @@ position:
 permalink: /portfolio/uppercase-development-logo-and-brand
 images:
 - udi-logo.png
-- letterhead 0.04 windows.png
-- envelope 1.0.png
+- letterhead_0.04_windows.png
+- envelope_1.0.png
 
 ---
 {% include JB/setup %}

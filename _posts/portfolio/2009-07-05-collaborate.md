@@ -16,12 +16,12 @@ position:
 - Project Manager
 permalink: /portfolio/collaborate
 images:
-- 'cpnp online: about cpnp_1250457099700.png'
-- 'cpnp online: about cpnp_1250457074326.png'
-- collaborate vault.png
-- collaborate site map.png
-- collaborate ma.png
-- collaborate groupadmin.png
+- cpnp_online__about_cpnp_1250457099700.png
+- cpnp_online__about_cpnp_1250457074326.png
+- collaborate_vault.png
+- collaborate_site_map.png
+- collaborate_ma.png
+- collaborate_groupadmin.png
 
 ---
 {% include JB/setup %}
