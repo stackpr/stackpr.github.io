@@ -11,7 +11,7 @@ position:
 - Developer
 permalink: /portfolio/nsea-nebraska-state-education-association
 images:
-- nsea_1250458480525.png
+- nsea_1250458480525_0.png
 - nsea_teacher_salaries_-_shortages_1250458615164.png
 - nsea_the_voice_archive_1250458678258.png
 references:

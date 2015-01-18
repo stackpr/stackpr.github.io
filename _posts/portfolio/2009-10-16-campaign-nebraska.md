@@ -15,7 +15,7 @@ position:
 permalink: /portfolio/campaign-nebraska
 images:
 - campaign_for_nebraska_1256768104706.png
-- campaign_for_nebraska_1256768134330.png
+- campaign_for_nebraska_1256768134330_0.png
 - campaign_for_nebraska_to_raise_1.2_billion_for_nu_-_campaign_for_nebraska_1256768162242.png
 - campaign_for_nebraska_to_raise_1.2_billion_for_nu_-_campaign_for_nebraska_1256768204558.png
 - campaign_for_nebraska_to_raise_1.2_billion_for_nu_-_campaign_for_nebraska_1256768228847.png

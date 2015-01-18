@@ -17,7 +17,7 @@ position:
 - Project Manager
 permalink: /portfolio/product-selector
 images:
-- wby_selector.png
+- wby_selector_0.png
 - wby_selector_2.png
 - wby_selector_3.png
 - wby_selector_4_comparison.png

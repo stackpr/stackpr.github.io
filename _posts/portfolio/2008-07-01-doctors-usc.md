@@ -20,10 +20,10 @@ position:
 - Project Manager
 permalink: /portfolio/doctors-usc
 images:
-- doctors-of-usc_home.png
-- doctors-of-usc_home_video.png
+- doctors-of-usc_home_0.png
+- doctors-of-usc_home_video_0.png
 - doctors-of-usc_library.png
-- doctors-of-usc_search_ajax.png
+- doctors-of-usc_search_ajax_0.png
 - doctors-of-usc_search_results.png
 - doctors-of-usc_misc.png
 - doctors-of-usc_groups.png

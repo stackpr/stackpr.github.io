@@ -17,11 +17,11 @@ position:
 permalink: /portfolio/usc-sister-sites
 images:
 - usc-nor-home.jpg
-- usc-nor-calendar.jpg
-- usc-nor-menu.jpg
+- usc-nor-calendar_0.jpg
+- usc-nor-menu_0.jpg
 - usc-nor-search.jpg
 - usc-uh-home.jpg
-- usc-uh-conditions.jpg
+- usc-uh-conditions_0.jpg
 - usc-uh-content.jpg
 references:
 - title: Norris Cancer Hospital

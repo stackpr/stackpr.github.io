@@ -14,7 +14,7 @@ position:
 - Project Manager
 permalink: /portfolio/shindaiwa
 images:
-- shindaiwa_1.jpg
+- shindaiwa_1_0.jpg
 - shindaiwa_2.jpg
 - shindaiwa_-_js_menu.png
 - shindaiwa_-_pdfs.png
