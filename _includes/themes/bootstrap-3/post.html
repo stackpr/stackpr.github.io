@@ -21,17 +21,6 @@
       {{ content }}
     </div>
 
-  {% unless page.categories == empty %}
-  	<div class="row">
-	  	<div class="tag_vocabulary col-xs-2">Category:</div>
-	    <ul class="tag_box inline col-xs-10">
-	      <li><i class="glyphicon-open"></i></li>
-	      {% assign categories_list = page.categories %}
-	      {% include JB/categories_list %}
-	    </ul>
-  	</div>
-  {% endunless %}  
-
   {% unless page.tech == null | page.tech == empty %}
   	<div class="row">
 	  	<div class="tag_vocabulary col-xs-2">Technologies:</div>
