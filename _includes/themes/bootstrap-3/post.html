@@ -21,6 +21,18 @@
       {{ content }}
     </div>
 
+  {% unless page.project == null | page.project == empty %}
+  	<div class="row">
+	  	<div class="tag_vocabulary col-xs-2">Project:</div>
+	    <ul class="tag_box inline col-xs-10">
+	      <li><i class="glyphicon-tags"></i></li>
+	      {% for p in page.project %}
+	      	{% for test in site.posts %}{% if test.url == p %}<li><a href="{{ p }}">{{ test.title }}</a></li>{% endif %}{% endfor %}
+	      {% endfor %}
+	    </ul>
+	</div>
+  {% endunless %}  
+
   {% unless page.tech == null | page.tech == empty %}
   	<div class="row">
 	  	<div class="tag_vocabulary col-xs-2">Technologies:</div>

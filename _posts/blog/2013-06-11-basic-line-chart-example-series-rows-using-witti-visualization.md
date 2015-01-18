@@ -2,6 +2,8 @@
 title: Basic line chart example with series in rows using Witti Visualization
 layout: post
 category: blog
+project:
+- /project/witti-visualization
 tech:
 - JS
 - Google Visualization API
@@ -157,5 +159,5 @@ js:
 	</table>
 </div>
 <p>&nbsp;</p>
-</div></div></div><div class="field field-name-field-project field-type-entityreference field-label-above"><div class="field-label">Project:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/project/witti-visualization">DELETE</a></div></div></div>  </div>
+</div></div></div>  </div>
 </div>

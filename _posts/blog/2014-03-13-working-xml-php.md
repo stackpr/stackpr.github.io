@@ -2,6 +2,8 @@
 title: Working with XML in PHP
 layout: post
 category: blog
+project:
+- /project/quipxml
 tech:
 - PHP
 permalink: /blog/2014/03/13/working-xml-php
@@ -15,5 +17,5 @@ permalink: /blog/2014/03/13/working-xml-php
 <p>However, I am not a fan of the significant amount of code each of those projects requires to even load a small XML document. Additionally, the internal state strategy that complicates storing references to multiple positions in the document highlights the fact that the complexity comes with some performance hits.</p>
 <p>When I started the research, I was really just looking for a project that plugged a few holes in the SimpleXML functionality. SimpleXML is fast since it is compiled into PHP, and it is very simple to use. In the end, I opted to create a lightweight wrapper that adds a few small missing features to SimpleXML without creating the extreme bloat of the libraries above. In the end, it took fewer than 500 lines (with comments) to accomplish what I wanted.</p>
 <p>Using <a href="/project/quipxml">QuipXML</a>, XPath queries are chainable, the DOM can be manipulated easily, and there are a handful of trivial traversal functions.</p>
-</div></div></div><div class="field field-name-field-project field-type-entityreference field-label-above"><div class="field-label">Project:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/project/quipxml">QuipXML</a></div></div></div>  </div>
+</div></div></div>  </div>
 </div>

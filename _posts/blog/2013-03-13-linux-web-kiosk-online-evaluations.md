@@ -2,6 +2,8 @@
 title: Linux Web Kiosk for Online Evaluations
 layout: post
 category: blog
+project:
+- /project/witti-kiosk
 tech:
 - Linux
 - Firefox
@@ -62,5 +64,5 @@ permalink: /blog/2013/03/13/linux-web-kiosk-online-evaluations
 		<a href="https://wiki.ubuntu.com/kioskFluxbox">kioskFluxbox - Ubuntu Wiki</a> - Instructions are helpful, but it appears abandoned</li>
 	<li>
 		<a href="http://packages.ubuntu.com/hardy/kiosktool">Ubuntu/KDE kiosktool</a> &amp; <a href="http://extragear.kde.org/apps/kiosktool/">The KDE Extragear - Kiosk Admin Tool</a>- Lacks documentation, although it appears to provide helpful GUIs</li>
-</ol></div></div></div><div class="field field-name-field-project field-type-entityreference field-label-above"><div class="field-label">Project:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/project/witti-kiosk">Witti Kiosk</a></div></div></div>  </div>
+</ol></div></div></div>  </div>
 </div>

@@ -2,6 +2,8 @@
 title: Lightdm autologin problem on Lubuntu 12.10
 layout: post
 category: blog
+project:
+- /project/witti-kiosk
 tech:
 - Lubuntu
 - Ubuntu
@@ -27,5 +29,5 @@ permalink: /blog/2013/03/17/lightdm-autologin-problem-lubuntu-1210
 		sudo apt-get install unity-greeter</li>
 	<li>
 		Edit "/etc/lightdm/lightdm.conf" and update line "greeter-session=unity-greeter"</li>
-</ol></div></div></div><div class="field field-name-field-project field-type-entityreference field-label-above"><div class="field-label">Project:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/project/witti-kiosk">DELETE</a></div></div></div>  </div>
+</ol></div></div></div>  </div>
 </div>
