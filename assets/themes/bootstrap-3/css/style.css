@@ -23,6 +23,7 @@
 }
 .navbar-default .navbar-nav>li>a {
   color: #fff;
+  line-height: 37px;
 }
 
 .syntaxhighlighter {
