@@ -11,7 +11,7 @@ position:
 - End-to-end
 permalink: /portfolio/dynamic-generation-photo-map-imagemagick
 images:
-- _assembled_0.png
+- assembled_0.png
 
 ---
 {% include JB/setup %}
