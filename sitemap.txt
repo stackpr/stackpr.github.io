@@ -3,7 +3,7 @@
 title : Sitemap
 ---
 {% for page in site.pages %}
-{{site.production_url}}{{ page.url }}{% endfor %}
+{{site.production_url}}{{ page.url | replace:'.html','' }}{% endfor %}
 {% for post in site.posts %}{% if site.JB.sitemap_categories contains post.category %}
 {{site.production_url}}{{ post.url }}{% endif %}{% endfor %}
 {% for post in site.posts %}{% unless site.JB.hide_categories contains post.category %}
