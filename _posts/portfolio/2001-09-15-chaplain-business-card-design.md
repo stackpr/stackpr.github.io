@@ -8,6 +8,8 @@ permalink: /portfolio/chaplain-business-card-design
 images:
 - angel6-card.jpg
 - angel6-shield.jpg
+tags:
+- Logo
 
 ---
 {% include JB/setup %}
