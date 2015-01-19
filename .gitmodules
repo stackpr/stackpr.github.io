@@ -1,3 +1,6 @@
 [submodule "wcdn/l-lib/visualization"]
-	path = wcdn/l-lib/visualization
+	path = wcdn/l/lib/visualization
+	url = https://wittiws@github.com/wittiws/visualization.git
+[submodule "wcdn/l/lib/visualization"]
+	path = wcdn/l/lib/visualization
 	url = https://wittiws@github.com/wittiws/visualization.git
