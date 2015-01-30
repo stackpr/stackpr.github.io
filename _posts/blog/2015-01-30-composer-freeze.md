@@ -1,5 +1,5 @@
 ---
-title: Composer Freezes During Update
+title: Composer Freezes During Update (require-dev)
 layout: post
 category: blog
 tags:
