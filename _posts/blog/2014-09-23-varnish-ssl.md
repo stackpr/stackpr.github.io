@@ -14,7 +14,7 @@ Varnish does not natively support SSL. However, it is a simple matter to put a l
 
 The nginx SSL reverse proxy configuration is pretty trivial:
 
-````
+<pre>
 server {
   listen 443;
   server_name example.com;
@@ -38,4 +38,4 @@ server {
     proxy_pass http://127.0.0.1:80;
   }
 }
-````
+</pre>
