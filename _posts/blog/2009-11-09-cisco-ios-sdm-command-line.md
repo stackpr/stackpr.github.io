@@ -19,6 +19,7 @@ permalink: /blog/2009/11/09/cisco-ios-sdm-command-line
 # show ip nat translations // view current port forwarding.<br />
 # configure // Go into configure mode<br />
 # ip nat inside source static tcp 10.10.10.2 110 xx.xx.xx.xx 110 // Forward a port<br /><em>// Another level deep - managing an access list...</em><br />
+# no ip nat inside source static tcp 10.10.10.2 110 xx.xx.xx.xx 110 // delete the nat rule<br />
 # ip access-list extended 101 // manage config for access-list 101.<br />
 # 105 permit tcp host xx.xx.xx.xx host xx.xx.xx.xx eq 110 // Where xx = IP address and 105 = line number to insert<br />
 # 120 permit tcp any host 76.79.26.82 eq ftp
