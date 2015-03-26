@@ -21,4 +21,5 @@ $tgt = preg_replace('@^.*\00([A-Z]:)(?:[\00\\\\]|\\\\.*?\\\\\\\\.*?\00)([^\00]+?
 </pre>
 
 _Update 2011-09-14: Adjusted the regex for improved handling of shortcuts on a network mounted drive._
+
 _Update 2015-03-26: Adjusted the regex for improved handling of shortcuts to any non-root paths (shortcuts to root directories no longer work)_
