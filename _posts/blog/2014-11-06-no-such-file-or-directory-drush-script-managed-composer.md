@@ -5,7 +5,7 @@ category: blog
 tags:
 - Composer
 - Github
-permalink: /blog/2014/11/06/no-such-file-or-directory-script-managed-composer-php
+permalink: /blog/2014/11/06/no-such-file-or-directory-drush-script-managed-composer
 published: false
 
 ---
@@ -36,9 +36,13 @@ The \r character prevented proper discovery of the interpretter.
 
 1. Edit ~/.gitconfig (or other git config file) to add autocrlf=input.
 2. Delete ./vendor/drush/drush folder
-3. 
-	Corrected by updating .gitconfig, deleting the vendor/drush/drush folder, and running composer update drush/drush.</div>
-<div>
-	 </div>
-</div></div></div>  </div>
-</div>
+3. Update using composer to clone a fresh copy of drush with proper line endings.
+
+```
+# cat ~/.gitconfig
+[core]
+  autocrlf = input
+... (your other settings)
+# rm -rf ./vendor/drush/drush
+# composer update
+```
