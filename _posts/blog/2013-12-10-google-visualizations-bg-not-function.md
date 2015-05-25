@@ -24,7 +24,7 @@ Although I have moved away from autoloading in these scripts to mitigate this pr
 }
 _race_loader_();
 google.load("visualization","1",{"autoloaded":true,"callback":"_race_visualization_"});
-if (window['google'] != undefined &amp;&amp; window['google']['loader'] != undefined) {
+if (window['google'] != undefined && window['google']['loader'] != undefined) {
   if (!window['google']['visualization']) {
     window['google']['visualization'] = {};
     google.visualization.Version = '1.0';
