@@ -5,7 +5,6 @@ category: blog
 tags:
 - JS
 - Google Visualization API
-permalink: /blog/2013/12/10/google-visualizations-bg-not-function
 
 ---
 {% include JB/setup %}
@@ -20,7 +19,7 @@ Unfortunately, the error was transient an inconsistent such that I could not con
 
 ## Autoloading Callbacks for Visualization
 
-Although I have moved away from autoloading in these scripts to mitigate this problem, I want make a note regarding the two distinct callbacks. The first is for when the loader is available, and the second is per-module (for those modules that support it). When autoloading visualizations with <a href="https://www.google.com/jsapi?callback=_race_loader_&amp;autoload={%22modules%22%3A[{%22name%22%3A%22visualization%22%2C%22version%22%3A%221%22%2C%22callback%22%3A%22_race_visualization_%22}]}">this URI</a> (with callbacks <strong>`_race_loader_`</strong> and <strong>`_race_visualization_`</strong> for easy identification), you can see where they land in the script. The first callback seems preferrable only when you have additional libraries that you want to load dynamically.
+Although I have moved away from autoloading in these scripts to mitigate this problem, I want make a note regarding the two distinct callbacks. The first is for when the loader is available, and the second is per-module (for those modules that support it). When autoloading visualizations with <a href="{{ "https://www.google.com/jsapi?callback=_race_loader_&amp;autoload={%22modules%22%3A[{%22name%22%3A%22visualization%22%2C%22version%22%3A%221%22%2C%22callback%22%3A%22_race_visualization_%22}]}" }}">this URI</a> (with callbacks <strong>`_race_loader_`</strong> and <strong>`_race_visualization_`</strong> for easy identification), you can see where they land in the script. The first callback seems preferrable only when you have additional libraries that you want to load dynamically.
 ```js
 }
 _race_loader_();
