@@ -9,10 +9,9 @@ permalink: /project/witti-visualization
 
 ---
 {% include JB/setup %}
-<div id="node-236" class="node node-project node-promoted">
-  <div class="content clearfix">
-    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Witti Visualization is an HTML5 wrapper to Google Visualizations to avoid dealing with any JavaScript directly. Instead, simply add the appropriate &lt;script&gt; tag and then add HTML5 data attributes to the page. <a href="/project/witti-visualization/posts">Browse related posts and examp​les.</a></p>
-<!--break-->
+
+Witti Visualization is an HTML5 wrapper to Google Visualizations to avoid dealing with any JavaScript directly. Instead, simply add the appropriate &lt;script&gt; tag and then add HTML5 data attributes to the page.
+
 <h2>
 	Including the JavaScript File</h2>
 <p><a href="https://github.com/wittiws/visualization"><img alt="Fork me on GitHub" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" style="position: absolute; top: 0; right: 0; border: 0;" /></a>Link directly to a hosted version of the script:</p>
@@ -59,5 +58,10 @@ permalink: /project/witti-visualization
 			<td>
 				Rotate the data from the HTML table so that the series exist in rows rather than columns.</td>
 		</tr></tbody></table><p>The JavaScript converts all other data-gv-VARNAME attributes to Google Visualization option parameters.</p>
-</div></div></div>  </div>
-</div>
+
+## Other examples
+
+- [Basic line chart example with series in rows using Witti Visualization](http://www.witti.ws/blog/2013/06/11/basic-line-chart-example-series-rows-using-witti-visualization)
+- [Basic line chart example using Witti Visualization](http://www.witti.ws/blog/2012/10/10/basic-line-chart-example-using-witti-visualization)
+
+
