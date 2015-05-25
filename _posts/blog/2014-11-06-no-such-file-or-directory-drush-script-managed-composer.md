@@ -5,8 +5,7 @@ category: blog
 tags:
 - Composer
 - Github
-permalink: /blog/2014/11/06/no-such-file-or-directory-drush-script-managed-composer
-published: false
+- Linux
 
 ---
 {% include JB/setup %}
