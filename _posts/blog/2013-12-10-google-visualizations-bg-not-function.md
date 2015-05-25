@@ -6,7 +6,6 @@ tags:
 - JS
 - Google Visualization API
 permalink: /blog/2013/12/10/google-visualizations-bg-not-function
-published: false
 
 ---
 {% include JB/setup %}
