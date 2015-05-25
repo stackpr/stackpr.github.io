@@ -29,6 +29,7 @@ HelloWorld
 On the terminal, there is no visual distinction between the output of the first 2 commands, although the difference is clear when you can see the input. The 2nd echo contains `\r` characters and a null (`\0`) character. There are many ways to iterate through characters for debugging purposes, but the `od -c` command is always a solid starting point.
 
 For a visual scan of a file without the structured approach that od provides, you can also use `cat -v` to convert non-printing characters to caret-ers. `\r` becomes `^M`, `\0` becomes `^@` and so on.
+
 <pre class="brush:bash">
 # echo -en "\r\nHello\0World\r\n" | cat -v
 ^M
