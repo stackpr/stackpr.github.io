@@ -1,0 +1,272 @@
+---
+title: Exporting Drupal 7 Web Site to GitHub Pages (Jekyll)
+layout: post
+category: blog
+tags:
+- Drupal
+- GitHub
+position:
+- Developer
+
+---
+{% include JB/setup %}
+
+# Dropping Drupal for Cheaper and Faster Web Site
+
+I have long been a fan of static (or fully cached) web sites.
+[Existing web services allow static sites to retain many of the same features.](http://www.witti.ws/blog/2012/10/07/implementing-cloudfront-drupal/)
+This web site was initially built in Drupal 6 and then upgraded to Drupal 7 out of habit.
+The content creation/management was convenient, but there came a time when I wanted to downgrade my hosting requirements and avoid having to upgrade to Drupal 8.
+
+One simple option I considered was to export to a static version and pay a few cents to host it on S3.
+[Others](http://blog.meshul.am/2013/08/archiving-a-website-with-amazon-s3/) have done this too, and it revolves around a basic wget command:
+
+<pre class="brush:bash">
+wget --recursive --no-clobber --page-requisites --html-extension --convert-links --restrict-file-names=windows --domains www.witti.ws --no-parent www.witti.ws
+</pre>
+
+However, that makes any kind of additional blogging time-consuming and any redesign too cumbersome to consider.
+That is why I decided to go with [GitHub Pages](https://pages.github.com/).
+It is a static publishing system that allows templating via [Jekyll](http://jekyllrb.com), and it is FREE or low-cost (depending on whether you are willing to make your web site code publicly visible).
+
+Although most Jekyll sites appear to focus on a monolithic body element, you can actually add fields to your template.
+By adding fields to your template, you can essentially export your existing content types as they exist without having to give up any flexibility that comes from tracking data in separate fields.
+
+So the decision was made... Now for the export.
+
+# Dependencies: YAML
+
+Assuming you have sudo access, the prereqs are minor.
+If not, then replace the YAML code with a PHP-only YAML encoder (there are plenty to choose from).
+
+<pre class="brush:bash">
+sudo apt-get install libyaml
+sudo pecl install yaml
+</pre>
+
+# Export Process
+
+
+<pre class="brush:bash">
+cd /path/to/www/sites/all/modules/
+/path/to/www/sites/all/modules/drush/drush d2j-export
+</pre>
+
+
+<?php
+function d2j_drush_command() {
+  $items['d2j-export'] = array(
+    'description' => 'Export to Jekyll.',
+  );
+  return $items;
+}
+
+function drush_d2j_export() {
+  $jekyll_root = '/path/to/site/wittiws.github.io/';
+  $conf = array();
+  $all_images = array();
+
+  // Get all of the nodes.
+  $sql = "SELECT * FROM {node} ORDER BY nid ";
+  foreach (db_query($sql)->fetchAll() as $row) {
+    $node = node_load($row->nid);
+
+    // Build the export
+    $exports = array(
+      'title' => $node->title,
+      'layout' => 'post',
+      'category' => $node->type,
+      'project' => array(),
+      'tags' => array(),
+      'team' => array(),
+      'position' => array(),
+      'permalink' => url("node/{$node->nid}"),
+      'images' => array(),
+      'js' => array(),
+      'references' => array(),
+    );
+
+    // Build the node and trim the markup.
+    $node->title = 'DELETE';
+
+    // Attempt to extract php from the body.
+    if (preg_match("@^(.*)<\?php(.*?)\?>(.*)$@s", $node->body[LANGUAGE_NONE][0]['value'], $arr)) {
+      $node->body[LANGUAGE_NONE][0]['value'] = $arr[1] . $arr[3];
+      if (preg_match("@drupal_add_js\('(.*?)'@s", $arr[2], $arr2)) {
+        $exports['js'][] = $arr2[1];
+      }
+      else {
+        drupal_set_message("PHP extraction: " . $arr[2], 'error');
+      }
+    }
+
+    // Build the node_view.
+    $node_view = node_view($node);
+
+    // Add the tags
+    $tag_map = array(
+      'taxonomy_vocabulary_1' => 'tags',
+      'taxonomy_vocabulary_2' => 'position',
+      'taxonomy_vocabulary_4' => 'team',
+    );
+    foreach ($tag_map as $voc => $tags) {
+      if (isset($node->{$voc}) && isset($node->{$voc}[LANGUAGE_NONE])) {
+        foreach ($node->{$voc}[LANGUAGE_NONE] as $tag) {
+          $exports[$tags][] = $tag['taxonomy_term']->name;
+        }
+        unset($node_view[$voc]);
+        //       var_export($node_view); exit;
+      }
+    }
+
+    // Convert any link fields.
+    $link_fields = array(
+      'field_reference' => 'references',
+    );
+    foreach ($link_fields as $field => $tgt) {
+      if (isset($node->{$field}) && isset($node->{$field}[LANGUAGE_NONE])) {
+        foreach ($node->{$field}[LANGUAGE_NONE] as $f) {
+          if (empty($f['url'])) {
+            continue;
+          }
+          $exports[$tgt][] = array(
+            'title' => $f['title'],
+            'link' => $f['url'],
+          );
+        }
+        unset($node_view[$field]);
+      }
+    }
+
+    // Convert any file fields.
+    $file_fields = array(
+      'field_document' => 'references',
+    );
+    foreach ($file_fields as $field => $tgt) {
+      if (isset($node->{$field}) && isset($node->{$field}[LANGUAGE_NONE])) {
+        foreach ($node->{$field}[LANGUAGE_NONE] as $f) {
+          if (empty($f['filename'])) {
+            continue;
+          }
+          $filename = $f['filename'];
+          $filename = preg_replace('@[^a-z0-9\.\-]@s', '_', strtolower($filename));
+          $exports[$tgt][] = array(
+            'title' => $filename,
+            'link' => "/assets/files/$filename",
+          );
+          $all_images[] = $filename;
+        }
+        unset($node_view[$field]);
+      }
+    }
+
+    // Change the project fields.
+    $fields = array(
+      'field_project',
+    );
+    foreach ($fields as $field) {
+      if (!isset($node->{$field}) || !isset($node->{$field}[LANGUAGE_NONE])) {
+        continue;
+      }
+      foreach ($node->{$field}[LANGUAGE_NONE] as $v) {
+        $project = $v['entity']->nid;
+        if ($project === '') {
+          continue;
+        }
+        $exports['project'][] = url("node/$project");
+      }
+      unset($node->{$field}, $node_view[$field]);
+    }
+
+    // Change the image fields.
+    $fields = array(
+      'field_screenshot',
+    );
+    foreach ($fields as $field) {
+      if (!isset($node->{$field}) || !isset($node->{$field}[LANGUAGE_NONE])) {
+        continue;
+      }
+      foreach ($node->{$field}[LANGUAGE_NONE] as $v) {
+        $img = trim($v['filename']);
+        if ($img === '') {
+          continue;
+        }
+        $img = preg_replace('@^.*/@s', '', $img);
+        $img = strtolower($img);
+        $img = preg_replace('@[^a-z0-9\.\-]@s', '_', $img);
+        $test = $jekyll_root . 'assets/files/' . $img;
+        if (!is_file($test)) {
+          $test = preg_replace('@\.([^\.]*)$@', '_0.\1', $test);
+          if (is_file($test)) {
+            $img = preg_replace('@\.([^\.]*)$@', '_0.\1', $img);
+          }
+        }
+        $exports['images'][] = $img;
+        $all_images[] = $img;
+      }
+      unset($node->{$field}, $node_view[$field]);
+    }
+
+    // Render the node and trim the markup.
+    $rendered_node = drupal_render($node_view);
+    $md = $rendered_node;
+    $md = preg_replace('@<h2><a[^>]+>DELETE</a></h2>@s', '', $md);
+    $md = preg_replace('@<div id="disqus_thread">.*?</div>@s', '', $md);
+    $md = preg_replace('@<div[^>]*>\s*</div>@s', '', $md);
+    $md = preg_replace('@<div[^>]*>\s*</div>@s', '', $md);
+    $md = preg_replace('@<span class="submitted">[^<]+</span>@s', '', $md);
+    $md = preg_replace("@\n\s*\n@s", "\n", $md);
+
+    // Choose a path.
+    $path = url("node/{$node->nid}");
+    if ($node->status != 1) {
+      $created = strftime('%Y-%m-%d', $node->created);
+      $path = preg_replace('@^.*/@s', '', $path);
+      $path = '_posts/_drafts/' . $created . '-' . $path . '.md';
+      $exports['published'] = FALSE;
+    }
+    elseif (preg_match('@^/(.*)/(\d+)/(\d+)/(\d+)/(.*)$@s', $path, $arr)) {
+      $path = "_posts/$arr[1]/$arr[2]-$arr[3]-$arr[4]-$arr[5].md";
+    }
+    elseif (preg_match('@^/(project|park|portfolio|content)/(.*)$@s', $path, $arr)) {
+      if ($arr[1] === 'content') {
+        $arr[1] = 'portfolio';
+      }
+      $exports['category'] = $arr[1];
+      $created = strftime('%Y-%m-%d', $node->created);
+      $path = "_posts/$arr[1]/$created-$arr[2].md";
+    }
+    drush_print("{$node->nid} {$node->type}: $path");
+
+    // Add jquery when necessary
+    if (!empty($exports['js'])) {
+      array_unshift($exports['js'], 'jquery');
+    }
+
+    // Build the output from the exports and markdown.
+    foreach ($exports as $k => $v) {
+      if (is_array($v) && empty($v)) {
+        unset($exports[$k]);
+      }
+    }
+    $output = yaml_emit($exports);
+    $output = preg_replace("@\.+[\r\n]*$@s", '', $output);
+    $output .= "\n---\n";
+    $output .= "{% include JB/setup %}\n";
+    $output .= $md;
+
+    // Write the content.
+    $full_path = $jekyll_root . $path;
+    file_put_contents($full_path, $output);
+  }
+
+  // Confirm that images exist.
+  $all_images = array_unique($all_images);
+
+  foreach ($all_images as $img) {
+    $path = $jekyll_root . 'assets/files/' . $img;
+    if (!is_file($path)) {
+      drupal_set_message("Unable to locate $img", 'error');
+    }
+  }
+}
