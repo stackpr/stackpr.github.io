@@ -58,7 +58,7 @@ For each field that you will want to add in Step 3, you will want to add a block
 	    <ul class="tag_box inline col-xs-10">
 	      <li><i class="glyphicon-tags"></i></li>
 	      {{ "{%" }} for r in page.references %}
-	      	<li><a href="{{ r['link'] }}" rel="nofollow">{{ r['title'] }}</a></li>
+	      	<li><a href="{{ "{{" }} r['link'] }}" rel="nofollow">"{{ "{{" }} r['title'] }}</a></li>
 	      {{ "{%" }} endfor %}
 	    </ul>
 	</div>
