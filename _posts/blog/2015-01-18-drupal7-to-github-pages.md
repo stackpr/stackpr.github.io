@@ -34,7 +34,42 @@ By adding fields to your template, you can essentially export your existing cont
 
 So the decision was made... Now for the export.
 
-# Dependencies: YAML
+# Summary
+
+1. Install and configure [Jekyll-Bootstrap](http://jekyllbootstrap.com)
+2. Install dependencies
+3. Export node data
+4. Commit and _Push_ the node data
+5. Test and enjoy your success!
+
+For planning purposes, it would probably be to your benefit to evaluate all of the various fields that you have configured in Drupal.
+
+# Step 1: Install and configure [Jekyll-Bootstrap](http://jekyllbootstrap.com)
+
+For installation instructions, see [Jekyll-Bootstrap](http://jekyllbootstrap.com).
+
+Enable field support by editing `_includes/themes/bootstrap-3/post.html`.
+For each field that you will want to add in Step 3, you will want to add a block to your post file (the example is for a link field named "references" that contains "link" and "title" attributes):
+
+<pre class="brush:php">
+  {% unless page.references == null | page.references == empty %}
+  	<div class="row">
+	  	<div class="tag_vocabulary col-xs-2">References:</div>
+	    <ul class="tag_box inline col-xs-10">
+	      <li><i class="glyphicon-tags"></i></li>
+	      {% for r in page.references %}
+	      	<li><a href="{{ r['link'] }}" rel="nofollow">{{ r['title'] }}</a></li>
+	      {% endfor %}
+	    </ul>
+	</div>
+  {% endunless %}  
+</pre>
+
+The `unless...endunless` makes it only appear appear when the field is present.
+
+The `for...endfor` iterates over the field values and makes the values available as `r['attribute']`.
+
+# Step 2: Dependencies = YAML
 
 Assuming you have sudo access, the prereqs are minor.
 If not, then replace the YAML code with a PHP-only YAML encoder (there are plenty to choose from).
@@ -44,9 +79,12 @@ sudo apt-get install libyaml
 sudo pecl install yaml
 </pre>
 
-# Export Process
+# Step 3: Export Process
+
+## WARNING: THIS SHOULD NOT BE RUN WITHOUT CUSTOMIZATION!!!
 
 Place the following code into a file "d2j.drush.inc" within an enabled module folder for your site.
+Once installed and customized, you will run:
 
 <pre class="brush:bash">
 cd /path/to/www/sites/all/modules/
@@ -275,3 +313,21 @@ function drush_d2j_export() {
   }
 }
 </pre>
+
+# Step 4: Commit and Push the data
+
+Once you are satisfied that the export is generating appropriad MD files, you will need to commit and push the files to GitHub.
+
+# Step 5: Test and enjoy your success!
+
+Testing will be key.
+
+If you have anything beyond a basic installation of Drupal, you will likely need to modify the export and add/adjust the field export logic.
+
+Additionally, you will likely need to adjust your Jekyll template to appropriately render all of the field data that you export.
+
+Fortunately, the field concepts in Drupal map well to the YAML configurations within Jekyll for most content-driven applications. Some tweaking will likely be necessary, but the benefit is the elimination of hosting considerations moving forward as long as you have a WORM-style blog model for your web site.
+
+# Your experiences?
+
+Has anyone else migrated from Drupal to Jekyll? What were your experiences, and did you attempt to retain the field structures you had established within Drupal?
