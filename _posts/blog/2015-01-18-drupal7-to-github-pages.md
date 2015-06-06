@@ -51,7 +51,7 @@ For installation instructions, see [Jekyll-Bootstrap](http://jekyllbootstrap.com
 Enable field support by editing `_includes/themes/bootstrap-3/post.html`.
 For each field that you will want to add in Step 3, you will want to add a block to your post file (the example is for a link field named "references" that contains "link" and "title" attributes):
 
-<pre class="brush:php">
+<pre class="brush:php">{{ '
   {% unless page.references == null | page.references == empty %}
   	<div class="row">
 	  	<div class="tag_vocabulary col-xs-2">References:</div>
@@ -63,7 +63,7 @@ For each field that you will want to add in Step 3, you will want to add a block
 	    </ul>
 	</div>
   {% endunless %}  
-</pre>
+' }}</pre>
 
 The `unless...endunless` makes it only appear appear when the field is present.
 
