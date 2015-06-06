@@ -1,7 +1,7 @@
 ---
 title: Escaping Jekyll for GitHub Pages Sites
 layout: post
-category: project
+category: blog
 tags:
 - Jekyll
 
