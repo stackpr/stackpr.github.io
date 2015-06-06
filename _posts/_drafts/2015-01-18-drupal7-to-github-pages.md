@@ -46,13 +46,14 @@ sudo pecl install yaml
 
 # Export Process
 
+Place the following code into a file "d2j.drush.inc" within an enabled module folder for your site.
 
 <pre class="brush:bash">
 cd /path/to/www/sites/all/modules/
 /path/to/www/sites/all/modules/drush/drush d2j-export
 </pre>
 
-
+<pre class="brush:php">
 <?php
 function d2j_drush_command() {
   $items['d2j-export'] = array(
@@ -62,7 +63,7 @@ function d2j_drush_command() {
 }
 
 function drush_d2j_export() {
-  $jekyll_root = '/path/to/site/wittiws.github.io/';
+  $jekyll_root = '/path/to/export/folder/';
   $conf = array();
   $all_images = array();
 
@@ -76,11 +77,12 @@ function drush_d2j_export() {
       'title' => $node->title,
       'layout' => 'post',
       'category' => $node->type,
+      'permalink' => url("node/{$node->nid}"),
+      // Add any other fields that <em>any</em> of your entities might utilize.
       'project' => array(),
       'tags' => array(),
       'team' => array(),
       'position' => array(),
-      'permalink' => url("node/{$node->nid}"),
       'images' => array(),
       'js' => array(),
       'references' => array(),
@@ -96,6 +98,7 @@ function drush_d2j_export() {
         $exports['js'][] = $arr2[1];
       }
       else {
+        // Flag any embedded PHP - it is not supported by default in Jekyll.
         drupal_set_message("PHP extraction: " . $arr[2], 'error');
       }
     }
@@ -103,7 +106,7 @@ function drush_d2j_export() {
     // Build the node_view.
     $node_view = node_view($node);
 
-    // Add the tags
+    // Add the tags - map vocabularies to specific fields that were init'd above.
     $tag_map = array(
       'taxonomy_vocabulary_1' => 'tags',
       'taxonomy_vocabulary_2' => 'position',
@@ -115,7 +118,6 @@ function drush_d2j_export() {
           $exports[$tags][] = $tag['taxonomy_term']->name;
         }
         unset($node_view[$voc]);
-        //       var_export($node_view); exit;
       }
     }
 
@@ -160,7 +162,7 @@ function drush_d2j_export() {
       }
     }
 
-    // Change the project fields.
+    // Change the node reference fields - convert them to URL data.
     $fields = array(
       'field_project',
     );
@@ -218,7 +220,9 @@ function drush_d2j_export() {
     $md = preg_replace("@\n\s*\n@s", "\n", $md);
 
     // Choose a path.
+    // This will likely be customized per-site unless you already utilize a /**/YYYY/mm/dd/title structure.
     $path = url("node/{$node->nid}");
+    // Put all unpublished nodes into the _drafts folder.
     if ($node->status != 1) {
       $created = strftime('%Y-%m-%d', $node->created);
       $path = preg_replace('@^.*/@s', '', $path);
@@ -238,7 +242,7 @@ function drush_d2j_export() {
     }
     drush_print("{$node->nid} {$node->type}: $path");
 
-    // Add jquery when necessary
+    // Add jquery when necessary (e.g., other JS is being included.)
     if (!empty($exports['js'])) {
       array_unshift($exports['js'], 'jquery');
     }
@@ -270,3 +274,4 @@ function drush_d2j_export() {
     }
   }
 }
+</pre>
