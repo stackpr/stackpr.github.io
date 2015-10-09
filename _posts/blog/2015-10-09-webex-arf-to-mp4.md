@@ -62,3 +62,15 @@ avconv -i voip.flv -map 0 -c:a aac -strict experimental -ar 44100 -ab 59k voip.a
 avconv -i screen.mp4 -i voip.aac -strict experimental merged.mp4
 </pre>
 
+## Next Steps
+
+You can edit the resulting video in your program of choice.
+
+Windows users have a free option available via [Movie Maker](http://windows.microsoft.com/en-us/windows/movie-maker).
+It allows you to split the video and remove segments. It then outputs to WMV files with excellent quality.
+
+Now that you are familiar with avconv, you can convert the wmv (or many other video formats) quickly to mp4:
+
+<pre class="brush:bash">
+avconv -i InputFileName.wmv -c:v libx264 -c:a aac -strict experimental -ar 44100 -ab 59k OutputFileName.mp4
+</pre>
