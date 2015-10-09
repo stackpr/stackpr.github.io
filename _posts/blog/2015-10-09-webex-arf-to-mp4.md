@@ -8,8 +8,6 @@ tags:
 - mp4
 - arf
 - Movie Maker
-position:
-- Developer
 
 ---
 {% include JB/setup %}
