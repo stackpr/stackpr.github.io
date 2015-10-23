@@ -76,7 +76,7 @@ permalink: /blog/2014/03/19/route-53-dynamic-dns
 
 <h2>update.php Script</h2>
 <pre class="brush:php">
-<?php
+&lt;?php
 require_once __DIR__ . '/vendor/autoload.php';
 use Aws\Route53\Route53Client;
 
