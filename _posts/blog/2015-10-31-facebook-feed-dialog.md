@@ -41,38 +41,38 @@ Note that this is a very developer-centric solution that is likely only appropri
 <form id="linkbuilder">
   <div class="form-group">
 	<label for="app_id">App ID:</label>
-	<input id="app_id" type="text" size="30" />
+	<input id="app_id" class="form-control" type="text" size="30" />
   </div>
   <div class="form-group">
 	<label for="from">From (optional Page/User ID):</label>
-	<input id="from" type="text" size="30" />
+	<input id="from" class="form-control" type="text" size="30" />
   </div>
   <div class="form-group">
 	<label for="to">Target (optional Page/User timeline ID - defaults to "From"):</label>
-	<input id="to" type="text" size="30" />
+	<input id="to" class="form-control" type="text" size="30" />
   </div>
   <div class="form-group">
 	<label for="name">Title:</label>
-	<input id="name" type="text" size="30" />
+	<input id="name" class="form-control" type="text" size="30" />
   </div>
   <div class="form-group">
 	<label for="caption">Caption:</label>
-	<input id="caption" type="text" size="30" />
+	<input id="caption" class="form-control" type="text" size="30" />
   </div>
   <div class="form-group">
 	<label for="description">Description:</label>
-	<input id="description" type="text" size="30" />
+	<input id="description" class="form-control" type="text" size="30" />
   </div>
   <div class="form-group">
 	<label for="picture">Picture URL:</label>
-	<input id="picture" type="text" size="30" />
+	<input id="picture" class="form-control" type="text" size="30" />
   </div>
   <div class="form-group">
 	<label for="redirect_uri">Redirect URI (for after post):</label>
-	<input id="redirect_uri" type="text" size="30" />
+	<input id="redirect_uri" class="form-control" type="text" size="30" />
   </div>
   <div class="form-group">
 	<label for="output">Built URL:</label>
-	<textarea id="output" style="height:150px;width:100%"></textarea>
+	<textarea id="output" class="form-control" style="height:150px;width:100%"></textarea>
   </div>
 </form>
