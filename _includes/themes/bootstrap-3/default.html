@@ -140,6 +140,8 @@
 		{% for j in page.js %}
 			{% if j == "jquery" %}
 				<!-- jQuery should already be available. -->
+			{% elseif j contains " " %}
+				<script type="text/javascript">{{ j }}</script>
 			{% else %}
 				<script src="{{ j }}"></script>
 			{% endif %}
