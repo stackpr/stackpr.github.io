@@ -39,13 +39,40 @@ Note that this is a very developer-centric solution that is likely only appropri
 ## Utility Form
 
 <form id="linkbuilder">
-<p>App ID: <input id="app_id" type="text" size="30" /></p>
-<p>From (optional Page/User ID): <input id="from" type="text" size="30" /></p>
-<p>Target (optional Page/User timeline ID - defaults to "From"): <input id="to" type="text" size="30" /></p>
-<p>Title: <input id="name" type="text" size="30" /></p>
-<p>Caption: <input id="caption" type="text" size="30" /></p>
-<p>Description: <input id="description" type="text" size="30" /></p>
-<p>Picture URL: <input id="picture" type="text" size="30" /></p>
-<p>Redirect URI (for after post): <input id="redirect_uri" type="text" size="30" /></p>
-<p>Built URL: <textarea id="output" style="height:150px;width:100%"></textarea></p>
+  <div class="form-group">
+	<label for="app_id">App ID:</label>
+	<input id="app_id" type="text" size="30" />
+  </div>
+  <div class="form-group">
+	<label for="from">From (optional Page/User ID):</label>
+	<input id="from" type="text" size="30" />
+  </div>
+  <div class="form-group">
+	<label for="to">Target (optional Page/User timeline ID - defaults to "From"):</label>
+	<input id="to" type="text" size="30" />
+  </div>
+  <div class="form-group">
+	<label for="name">Title:</label>
+	<input id="name" type="text" size="30" />
+  </div>
+  <div class="form-group">
+	<label for="caption">Caption:</label>
+	<input id="caption" type="text" size="30" />
+  </div>
+  <div class="form-group">
+	<label for="description">Description:</label>
+	<input id="description" type="text" size="30" />
+  </div>
+  <div class="form-group">
+	<label for="picture">Picture URL:</label>
+	<input id="picture" type="text" size="30" />
+  </div>
+  <div class="form-group">
+	<label for="redirect_uri">Redirect URI (for after post):</label>
+	<input id="redirect_uri" type="text" size="30" />
+  </div>
+  <div class="form-group">
+	<label for="output">Built URL:</label>
+	<textarea id="output" style="height:150px;width:100%"></textarea>
+  </div>
 </form>
