@@ -7,6 +7,16 @@ tags:
 references:
 - title: Feed Dialog Documentation
   link: https://developers.facebook.com/docs/sharing/reference/feed-dialog/v2.5
+js:
+- >
+  $('#linkbuilder').change(function(){ 
+    var o = 'https://www.facebook.com/dialog/feed';
+    $(this).find('input').each(function(){
+      o += (o.indexOf('?') == -1) ? '?' : '&';
+      o += $(this).attr('id') + '=' + encodeURIComponent($(this).val());
+    });
+    $('#output').val(o);
+  });
 
 ---
 {% include JB/setup %}
@@ -25,14 +35,3 @@ The SDKs provide handy options when JavaScript is available, but it is a bit mor
 <p>Picture URL: <input id="picture" type="text" size="30" /></p>
 <p>Built URL: <textarea id="output" style="height: 50px"></textarea></p>
 </form>
-
-<script type="text/javascript"><!--
-$('#linkbuilder').change(function(){ 
-  var o = 'https://www.facebook.com/dialog/feed';
-  $(this).find('input').each(function(){
-    o += (o.indexOf('?') == -1) ? '?' : '&';
-    o += $(this).attr('id') + '=' + encodeURIComponent($(this).val());
-  });
-  $('#output').val(o);
-});
-//--></script>
