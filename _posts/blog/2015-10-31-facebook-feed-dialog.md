@@ -32,7 +32,7 @@ Note that this is a very developer-centric solution that is likely only appropri
 
 1. Register an app (web site app) and set the app's web site address to your domain name. Input its ID into the "App ID" below.
 1. Identify your Facebook Page's ID and add to "From" below.
-1. Customize the Title, Caption, Description and Picture URL below. Those should be self-explanatory.
+1. Customize the Link, Title, Caption, Description and Picture URL below. Those should be self-explanatory.
 1. Create an URL on your site where this should direct after posting the note. It can in turn be a redirect link back to Facebook, if you like. Add to "Redirect URI" below.
 1. Copy the "Built URL" and distribute it as you like. It would be advisable to actually create another redirect link on your site to send a user here -- or use a public URL shortener for that task.
 
@@ -50,6 +50,10 @@ Note that this is a very developer-centric solution that is likely only appropri
   <div class="form-group">
 	<label for="to">Target (optional Page/User timeline ID - defaults to "From"):</label>
 	<input id="to" class="form-control" type="text" size="30" />
+  </div>
+  <div class="form-group">
+	<label for="link">Link:</label>
+	<input id="link" class="form-control" type="text" size="30" />
   </div>
   <div class="form-group">
 	<label for="name">Title:</label>
