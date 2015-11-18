@@ -32,9 +32,10 @@ single video file that could be uploaded to video hosting sites.
 The following process appears to generate a high quality version of your recording with reasonable effort:
 
 1. Open the ARF in the WebEx Network Recording Player
-2. Convert to SWF
-3. Copy the new recording folder to where avconv is available
-4. Convert the recording to mp4 using the commands below
+1. Stop the video, if it autoplayed
+1. Convert to SWF
+1. Copy the new recording folder to where avconv is available (no action required if you run avconv locally)
+1. Convert the recording to mp4 using the commands below
 
 <pre class="brush:bash">
 avconv -i screen.flv -map 0 -c:v libx264 screen.mp4
