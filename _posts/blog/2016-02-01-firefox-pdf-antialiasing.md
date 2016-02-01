@@ -27,8 +27,10 @@ Using Acrobat Pro DC (instructions should work with other verions), I was able t
 Process:
 
 ### 1. Go to Edit PDF tool
+
 ### 2. Click More > Background > Add (or Update)
 ![menu](http://www.witti.ws/assets/files/firefox-pdf-antialias-menu.png)
 
 ### 3. Select "From color" and make sure it is set to a true white ![options](http://www.witti.ws/assets/files/firefox-pdf-antialias-color.png)
+
 ### 4. Click OK and save the PDF
