@@ -6,6 +6,8 @@ tags:
 - JS
 - Google Visualization API
 permalink: /project/witti-visualization
+js:
+- http://www.witti.ws/wcdn/l/lib/visualization/visualization.min.js
 
 ---
 {% include JB/setup %}
