@@ -10,7 +10,7 @@ tags:
 permalink: /blog/2012/10/10/basic-line-chart-example-using-witti-visualization
 js:
 - jquery
-- https://raw.github.com/wittiws/visualization/master/visualization.min.js
+- "https://raw.github.com/wittiws/visualization/master/visualization.min.js"
 
 ---
 {% include JB/setup %}
