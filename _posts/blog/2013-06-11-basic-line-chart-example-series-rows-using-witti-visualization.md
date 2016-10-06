@@ -10,7 +10,7 @@ tags:
 permalink: /blog/2013/06/11/basic-line-chart-example-series-rows-using-witti-visualization
 js:
 - jquery
-- http://l.wcdn.ws/lib/visualization/visualization.min.js
+- https://raw.github.com/wittiws/visualization/master/visualization.min.js
 
 ---
 {% include JB/setup %}
@@ -25,7 +25,7 @@ js:
 	Add JavaScript to the page</h3>
 <p>Add the JS to the page. If you use the witti CDN, the script tag would look like this:</p>
 <pre class="brush:jscript">
-&lt;script type="text/javascript" src="http://l.wcdn.ws/lib/visualization/visualization.min.js"&gt;&lt;/script&gt;</pre>
+&lt;script type="text/javascript" src="https://raw.github.com/wittiws/visualization/master/visualization.min.js"&gt;&lt;/script&gt;</pre>
 <h3>
 	Add properly formatted HTML table to the page</h3>
 <ol>
