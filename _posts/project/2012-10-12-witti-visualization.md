@@ -16,7 +16,7 @@ Witti Visualization is an HTML5 wrapper to Google Visualizations to avoid dealin
 	Including the JavaScript File</h2>
 <p><a href="https://github.com/wittiws/visualization"><img alt="Fork me on GitHub" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" style="position: absolute; top: 0; right: 0; border: 0;" /></a>Link directly to a hosted version of the script:</p>
 <ol><li>
-		Use directly from Github: <a href="https://raw.github.com/wittiws/visualization/master/visualization.min.js">https://raw.github.com/wittiws/visualization/master/visualization.min.js</a></li>
+		Use directly from Github: <a href="http://www.witti.ws/wcdn/l/lib/visualization/visualization.min.js">http://www.witti.ws/wcdn/l/lib/visualization/visualization.min.js</a></li>
 </ol><p>Download the file to your server:</p>
 <ol><li>
 		Use either link above</li>

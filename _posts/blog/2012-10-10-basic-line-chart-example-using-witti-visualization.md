@@ -10,7 +10,7 @@ tags:
 permalink: /blog/2012/10/10/basic-line-chart-example-using-witti-visualization
 js:
 - jquery
-- "https://raw.github.com/wittiws/visualization/master/visualization.min.js"
+- http://www.witti.ws/wcdn/l/lib/visualization/visualization.min.js
 
 ---
 {% include JB/setup %}
@@ -25,7 +25,7 @@ js:
 	Add JavaScript to the page</h3>
 <p>Add the JS to the page. If you use the witti CDN, the script tag would look like this:</p>
 <pre class="brush:jscript">
-&lt;script type="text/javascript" src="https://raw.github.com/wittiws/visualization/master/visualization.min.js"&gt;&lt;/script&gt;</pre>
+&lt;script type="text/javascript" src="http://www.witti.ws/wcdn/l/lib/visualization/visualization.min.js"&gt;&lt;/script&gt;</pre>
 <h3>
 	Add properly formatted HTML table to the page</h3>
 <ol>
