@@ -8,7 +8,7 @@ permalink: /sharebutton-to
 ---
 {% include JB/setup %}
 
-There is a concensus on google that sharebutton.to is analytics spam.
+There is a consensus on google that sharebutton.to is analytics spam.
 
 [See the growing number of search results on the topic.](https://www.google.com/#q=sharebutton.to+referral+spam)
 
