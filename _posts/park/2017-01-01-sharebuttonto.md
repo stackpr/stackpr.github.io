@@ -2,7 +2,8 @@
 title: Sharebutton.to appears to be spam
 layout: post
 category: park
-permalink: /sharebutton.to
+redirect_from: /sharebutton.to
+permalink: /sharebutton-to
 
 ---
 {% include JB/setup %}
