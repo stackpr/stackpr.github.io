@@ -1,5 +1,5 @@
 ---
-title: 'Fixing SVN: svn: E000002: Can't open file '***/.svn/pristine/xx/xx***.svn-base': No such file or directory'
+title: "'Fixing SVN: svn: E000002: Can't open file '***/.svn/pristine/xx/xx***.svn-base': No such file or directory'"
 layout: post
 category: blog
 tags:
