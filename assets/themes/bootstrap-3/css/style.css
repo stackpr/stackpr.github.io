@@ -42,6 +42,10 @@ div.page-header {
 	border: none;
 	padding: 0;
 }
+.syntaxhighlighter td.code div.container textarea {
+	width: 100%;
+	height: 5em;
+}
 .syntaxhighlighter table td.gutter .line {
 	text-align: right !important;
 	padding: 0 0.5em 0 1em !important;
