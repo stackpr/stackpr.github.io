@@ -37,6 +37,15 @@ div.page-header {
 .syntaxhighlighter div.toolbar {
 	display: none;
 }
+.syntaxhighlighter table {
+	width: 100%;
+}
+.syntaxhighlighter table td.gutter {
+	vertical-align: top
+}
+.syntaxhighlighter table td.code, .syntaxhighlighter table td.code div.container {
+	width: 100%;
+}
 .syntaxhighlighter code {
 	background: none;
 	border: none;
