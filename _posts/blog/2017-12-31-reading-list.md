@@ -1,6 +1,7 @@
 ---
 title: 2017 Reading List (Books)
 layout: post
+category: blog
 permalink: /reading/books/2017
 
 ---
