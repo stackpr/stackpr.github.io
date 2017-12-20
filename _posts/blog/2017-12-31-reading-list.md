@@ -22,4 +22,5 @@ This is a partial list of books read during 2017, as I did not think to start th
 
 - [The Nightingale](http://amzn.to/2iiRtrq) by Kristin Hannah
 - [Ready Player One](http://amzn.to/2BIvLWk) by Ernest Cline
-- [Free the Darkness](http://amzn.to/2ik78ae) by Kel Kade
+- [Free the Darkness (King's Dark Tidings Book 1)](http://amzn.to/2ik78ae) by Kel Kade
+- [Reign of Madness (King's Dark Tidings Book 2)](http://amzn.to/2BfYC7T) by Kel Kade
