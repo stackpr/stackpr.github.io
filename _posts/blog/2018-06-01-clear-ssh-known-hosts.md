@@ -33,10 +33,10 @@ Host key verification failed.
 NaCl plugin exited with status code 255.
 (R)econnect, (C)hoose another connection, or E(x)it?
  failed! :(
- </pre>
+</pre>
  
  
- ## The Solution
+## The Solution
  
  1. Go to the connection screen where this failed
  2. Press Ctrl-Shift-j to open developer tools
