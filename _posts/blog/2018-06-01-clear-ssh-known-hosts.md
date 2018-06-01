@@ -6,9 +6,6 @@ tags:
 - Chrome
 - ChromeOS
 - SSH
-references:
-- title: ex
-  link: http://example.com/
 
 ---
 {% include JB/setup %}
