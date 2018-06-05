@@ -42,6 +42,7 @@ NaCl plugin exited with status code 255.
  2. Press Ctrl-Shift-j to open developer tools
  3. Identify the index of the entry to remove (1st line = 1).
  <code>lib.fs.readFile(term_.command.fileSystem_.root, '/.ssh/known_hosts', (contents) => {console.log(contents)})</code>
+   This is easily identified via the error message above on the line <code>Offending ECDSA key in /.ssh/known_hosts:1</code>.
  4. Remove the entry by index.
  <code>term_.command.removeKnownHostByIndex(1)</code>
  5. Alternately (instead of steps 3-4), remove all entries.
