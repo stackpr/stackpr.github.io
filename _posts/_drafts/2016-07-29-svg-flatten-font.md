@@ -25,9 +25,11 @@ The web icon font strategy requires that each vector icon be monochromatic and t
 
 ## Solution: fill-rule=evenodd
 
+1. Convert shapes to paths -- [circle converter](http://complexdan.com/svg-circleellipse-to-path-converter/)
 1. Simplify the surrounding XML to avoid competing problems
 1. Combine all of the paths into a single path
 1. The first path should be the "background" -- all subsequent paths are cut out
+1. Add `fill-rule="evenodd"` to the path
 
 ### Basic XML
 
