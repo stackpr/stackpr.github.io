@@ -16,3 +16,4 @@ If you do not account for the deviations, users receive the error code 0x8000400
 1. SUMMARY must be limited to 67 characters. The spec requires lines to wrap at 75 characters [ref](https://icalendar.org/iCalendar-RFC-5545/3-1-content-lines.html), minus the 8 characters for "SUMMARY:".
 However, Outlook 2013 refuses to unfold content in tests.
 Outlook 2013 accepted longer SUMMARY parameter values without wrapping text, but that violates spec in a way that might impact other clients.
+1. Periodically, the ical subscriptions simply get stuck and may report this error even though the ical feeds are compliant. Depending on the number feeds, you can (1) remove and re-add the calendar subscriptions, or (2) close outlook, delete/rename the calendar PST file, and allow Outlook to recreate it.
