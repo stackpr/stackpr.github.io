@@ -1,6 +1,7 @@
 ---
 title: QuickBooks Clearing Journal Entries
 layout: post
+category: blog
 tags:
 - QuickBooks
 
