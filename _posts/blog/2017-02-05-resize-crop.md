@@ -1,6 +1,7 @@
 ---
 title: Command-Line Image Resize and Crop
 layout: post
+category: blog
 tags:
 - Imagemagick
 
