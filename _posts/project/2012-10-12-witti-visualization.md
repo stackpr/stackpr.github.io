@@ -7,7 +7,7 @@ tags:
 - Google Visualization API
 permalink: /project/witti-visualization
 js:
-- http://www.witti.ws/wcdn/l/lib/visualization/visualization.min.js
+- https://stack.payne.run/wcdn/l/lib/visualization/visualization.min.js
 
 ---
 {% include JB/setup %}
@@ -18,7 +18,7 @@ Witti Visualization is an HTML5 wrapper to Google Visualizations to avoid dealin
 	Including the JavaScript File</h2>
 <p><a href="https://github.com/wittiws/visualization"><img alt="Fork me on GitHub" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" style="position: absolute; top: 0; right: 0; border: 0;" /></a>Link directly to a hosted version of the script:</p>
 <ol><li>
-		Use directly from Github: <a href="http://www.witti.ws/wcdn/l/lib/visualization/visualization.min.js">http://www.witti.ws/wcdn/l/lib/visualization/visualization.min.js</a></li>
+		Use directly from Github: <a href="https://stack.payne.run/wcdn/l/lib/visualization/visualization.min.js">https://stack.payne.run/wcdn/l/lib/visualization/visualization.min.js</a></li>
 </ol><p>Download the file to your server:</p>
 <ol><li>
 		Use either link above</li>
@@ -61,7 +61,7 @@ Witti Visualization is an HTML5 wrapper to Google Visualizations to avoid dealin
 
 ## Other examples
 
-- [Basic line chart example with series in rows using Witti Visualization](http://www.witti.ws/blog/2013/06/11/basic-line-chart-example-series-rows-using-witti-visualization)
-- [Basic line chart example using Witti Visualization](http://www.witti.ws/blog/2012/10/10/basic-line-chart-example-using-witti-visualization)
+- [Basic line chart example with series in rows using Witti Visualization](https://stack.payne.run/blog/2013/06/11/basic-line-chart-example-series-rows-using-witti-visualization)
+- [Basic line chart example using Witti Visualization](https://stack.payne.run/blog/2012/10/10/basic-line-chart-example-using-witti-visualization)
 
 

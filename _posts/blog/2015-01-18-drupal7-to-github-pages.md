@@ -14,7 +14,7 @@ position:
 # Dropping Drupal for Cheaper and Faster Web Site
 
 I have long been a fan of static (or fully cached) web sites.
-[Existing web services allow static sites to retain many of the same features.](http://www.witti.ws/blog/2012/10/07/implementing-cloudfront-drupal/)
+[Existing web services allow static sites to retain many of the same features.](https://stack.payne.run/blog/2012/10/07/implementing-cloudfront-drupal/)
 This web site was initially built in Drupal 6 and then upgraded to Drupal 7 out of habit.
 The content creation/management was convenient, but there came a time when I wanted to downgrade my hosting requirements and avoid having to upgrade to Drupal 8.
 

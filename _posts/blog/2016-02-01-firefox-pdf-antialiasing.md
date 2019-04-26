@@ -18,7 +18,7 @@ I am still seeing the problem in 2016 using Firefox 44.
 
 | Broken | Fixed |
 | ------ | ----- |
-| ![wrong](http://www.witti.ws/assets/files/firefox-pdf-antialias-bad.png) | ![right](http://www.witti.ws/assets/files/firefox-pdf-antialias-good.png) |
+| ![wrong](https://stack.payne.run/assets/files/firefox-pdf-antialias-bad.png) | ![right](https://stack.payne.run/assets/files/firefox-pdf-antialias-good.png) |
 
 ## Solution for me
 
@@ -30,10 +30,10 @@ Process:
 
 ### 2. Click More > Background > Add (or Update)
 
-![menu](http://www.witti.ws/assets/files/firefox-pdf-antialias-menu.png)
+![menu](https://stack.payne.run/assets/files/firefox-pdf-antialias-menu.png)
 
 ### 3. Select "From color" and make sure it is set to a true white
 
-![options](http://www.witti.ws/assets/files/firefox-pdf-antialias-color.png)
+![options](https://stack.payne.run/assets/files/firefox-pdf-antialias-color.png)
 
 ### 4. Click OK and save the PDF
