@@ -21,10 +21,16 @@ div.page-header {
   background-image: linear-gradient(to bottom,#999 0,#666 100%);
 }
 .navbar-default .navbar-brand {
+/* Disable logo
   background: transparent url(/assets/witti/wit09_150x54.png) center no-repeat;
   height: 67px;
   width: 162px;
   text-indent: -1000px;
+*/
+  color: #fff;
+  font-size: 40px;
+  line-height: 36px;
+  font-weight: bold;
 }
 .navbar-default .navbar-nav>li>a {
   color: #fff;
