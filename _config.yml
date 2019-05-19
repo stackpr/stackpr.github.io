@@ -13,12 +13,12 @@ gems:
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Witti
+title : My Tech Stack
 #tagline: 
 author :
   name : Greg Payne
 #  email : blah@email.test
-  github : wittiws
+  github : stackpr
 #  twitter : username
 #  feedburner : feedname
 
