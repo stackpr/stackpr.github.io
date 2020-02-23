@@ -1,7 +1,7 @@
 ---
 title: Witti Kiosk
 layout: post
-category: project
+category: blog
 tags:
 - PHP
 - Linux
