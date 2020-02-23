@@ -1,11 +1,10 @@
 ---
 title: DOS (Windows Batch File) Cheat Sheet
 layout: post
-category: project
+category: blog
 tags:
 - Windows
 - DOS
-permalink: /project/dos
 references:
 - title: xcopy
   link: https://ss64.com/nt/xcopy.html
