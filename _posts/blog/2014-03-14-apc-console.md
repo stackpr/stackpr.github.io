@@ -1,7 +1,7 @@
 ---
 title: APC Console
 layout: post
-category: project
+category: blog
 tags:
 - PHP
 - APC
