@@ -15,3 +15,10 @@ tags:
 ```
 docker run -v ${PWD}:/work mnuessler/pdftk a.pdf b.pdf c.pdf cat output combined.pdf
 ```
+
+## Resolve volume errors
+
+```
+Errror mkdir /host_mnt/c: file exists
+> docker volume prune
+```
