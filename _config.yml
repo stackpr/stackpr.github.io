@@ -43,7 +43,7 @@ JB :
     provider: custom
     
   # Suppress links to the following types.
-  hide_categories: ["portfolio", "park", "project"]
+  hide_categories: ["portfolio", "park", "redirect"]
   
   # Show hidden categories
   sitemap_categories: ["project"]
