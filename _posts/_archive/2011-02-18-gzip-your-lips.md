@@ -1,5 +1,5 @@
 ---
-title: Gzip your lips
+title: Gzip your lips (Flash/SWF/gzip conflict)
 layout: post
 category: blog
 tags:
