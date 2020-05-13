@@ -1,10 +1,11 @@
 ---
-title: "not supported calendar message.ics"
+title: "Outlook Meeting Invitations: not supported calendar message.ics"
 layout: post
 category: blog
 tags:
 - Outlook
 - ical
+- PHP
 position:
 - Developer
 
